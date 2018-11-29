@@ -170,7 +170,44 @@
                     },
                     {
                         "name": "Closures",
-                        "level": 3
+                        "items": [
+                            {
+                                "name": "Closure Expressions",
+                                "level": 3
+                            },
+                            {
+                                "name": "Trailing Closures",
+                                "level": 4
+                            },
+                            {
+                                "name": "Implicit Returns",
+                                "level": 4
+                            },
+                            {
+                                "name": "Shorthand Argument Names",
+                                "level": 3
+                            },
+                            {
+                                "name": "Operator Methods",
+                                "level": 2
+                            },
+                            {
+                                "name": "Capturing Values",
+                                "level": 3
+                            },
+                            {
+                                "name": "Closures Are Reference Types",
+                                "level": 5
+                            },
+                            {
+                                "name": "Escaping Closures",
+                                "level": 1
+                            },
+                            {
+                                "name": "Autoclosures",
+                                "level": 0
+                            }
+                        ]
                     },
                     {
                         "name": "Enumerations",
@@ -239,7 +276,7 @@
                     },
                     {
                         "name": "Deinitialization",
-                        "level": 2
+                        "level": 3
                     },
                     {
                         "name": "Optional Chaining",
@@ -275,7 +312,24 @@
                     },
                     {
                         "name": "Memory Safety",
-                        "level": 2
+                        "items": [
+                            {
+                                "name": "Understanding Conflicting Access to Memory",
+                                "level": 3
+                            },
+                            {
+                                "name": "Conflicting Access to In-Out Parameters",
+                                "level": 1
+                            },
+                            {
+                                "name": "Conflicting Access to self in Methods",
+                                "level": 1
+                            },
+                            {
+                                "name": "Conflicting Access to Properties",
+                                "level": 1
+                            }
+                        ]
                     },
                     {
                         "name": "Access Control",
@@ -283,7 +337,66 @@
                     },
                     {
                         "name": "Advanced Operators",
-                        "level": 2
+                        "items": [
+                            {
+                                "name": "Bitwise Operators",
+                                "items": [
+                                    {
+                                        "name": "Bitwise NOT Operator",
+                                        "level": 5
+                                    },
+                                    {
+                                        "name": "Bitwise AND Operator",
+                                        "level": 5
+                                    },
+                                    {
+                                        "name": "Bitwise OR Operator",
+                                        "level": 5
+                                    },
+                                    {
+                                        "name": "Bitwise XOR Operator",
+                                        "level": 4
+                                    },
+                                    {
+                                        "name": "Bitwise Left and Right Shift Operators",
+                                        "level": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Overflow Operators",
+                                "level": 1
+                            },
+                            {
+                                "name": "Precedence and Associativity",
+                                "level": 3
+                            },
+                            {
+                                "name": "Operator Methods",
+                                "items": [
+                                    {
+                                        "name": "Operator Methods Syntax",
+                                        "level": 3
+                                    },
+                                    {
+                                        "name": "Prefix and Postfix Operators",
+                                        "level": 2
+                                    },
+                                    {
+                                        "name": "Compound Assignment Operators",
+                                        "level": 2
+                                    },
+                                    {
+                                        "name": "Equivalence Operators",
+                                        "level": 3
+                                    },
+                                    {
+                                        "name": "Custom Operators",
+                                        "level": 3
+                                    }
+                                ]
+                            }
+                        ]
                     },
                 ]
             },
@@ -590,15 +703,175 @@
                                                 "items": [
                                                     {
                                                         "name": "UIView",
-                                                        "level": 3
+                                                        "items": [
+                                                            {
+                                                                "name": "Creating a View Object",
+                                                                "level": 3
+                                                            },
+                                                            {
+                                                                "name": "Configuring a View’s Visual Appearance",
+                                                                "level": 2
+                                                            },
+                                                            {
+                                                                "name": "Configuring the Event-Related Behavior",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Configuring the Bounds and Frame Rectangles",
+                                                                "level": 2
+                                                            },
+                                                            {
+                                                                "name": "Managing the View Hierarchy",
+                                                                "level": 3
+                                                            },
+                                                            {
+                                                                "name": "Observing View-Related Changes",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Configuring Content Margins",
+                                                                "level": 0
+                                                            },
+                                                            {
+                                                                "name": "Getting the Safe Area",
+                                                                "level": 0
+                                                            },
+                                                            {
+                                                                "name": "Managing the View’s Constraints",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Creating Constraints Using Layout Anchors",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Working with Layout Guides",
+                                                                "level": 0
+                                                            },
+                                                            {
+                                                                "name": "Measuring in Auto Layout",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Aligning Views in Auto Layout"
+                                                            },
+                                                            {
+                                                                "name": "Triggering Auto Layout",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Debugging Auto Layout"
+                                                            },
+                                                            {
+                                                                "name": "Configuring the Resizing Behavior",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Laying out Subviews",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Managing the User Interface Direction"
+                                                            },
+                                                            {
+                                                                "name": "Adding and Removing Interactions"
+                                                            },
+                                                            {
+                                                                "name": "Drawing and Updating the View",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Formatting Printed View Content"
+                                                            },
+                                                            {
+                                                                "name": "Managing Gesture Recognizers",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Observing Focus"
+                                                            },
+                                                            {
+                                                                "name": "Using Motion Effects"
+                                                            },
+                                                            {
+                                                                "name": "Preserving and Restoring State"
+                                                            },
+                                                            {
+                                                                "name": "Capturing a View Snapshot"
+                                                            },
+                                                            {
+                                                                "name": "Identifying the View at Runtime",
+                                                                "level": 2
+                                                            },
+                                                            {
+                                                                "name": "Converting Between View Coordinate Systems",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "Hit Testing in a View"
+                                                            },
+                                                            {
+                                                                "name": "Ending a View Editing Session"
+                                                            },
+                                                            {
+                                                                "name": "Modifying the Accessibility Behavior"
+                                                            },
+                                                            {
+                                                                "name": "Animations",
+                                                                "items": [
+                                                                    {
+                                                                        "name": "Animating Views with Block Objects",
+                                                                        "level": 2
+                                                                    },
+                                                                    {
+                                                                        "name": "Animating Views",
+                                                                        "level": 0
+                                                                    }
+                                                                ]
+                                                            }
+                                                            
+                                                        ]
                                                     },
                                                     {
                                                         "name": "Container Views",
-                                                        "level": 3
+                                                        "items": [
+                                                            {
+                                                                "name": "Collection Views",
+                                                                "level": 3
+                                                            },
+                                                            {
+                                                                "name": "Table Views",
+                                                                "level": 3
+                                                            },
+                                                            {
+                                                                "name": "Stack Views",
+                                                                "level": 3
+                                                            },
+                                                            {
+                                                                "name": "Scroll Views",
+                                                                "level": 1
+                                                            }
+                                                        ]
                                                     },
                                                     {
                                                         "name": "Content Views",
-                                                        "level": 2
+                                                        "items": [
+                                                            {
+                                                                "name": "UIActivityIndicatorView"
+                                                            },
+                                                            {
+                                                                "name": "UIImageView",
+                                                                "level": 2
+                                                            },
+                                                            {
+                                                                "name": "UIPickerView",
+                                                                "level": 1
+                                                            },
+                                                            {
+                                                                "name": "UIProgressView",
+                                                                "level": 1
+                                                            }
+                                                        ]
                                                     },
                                                     {
                                                         "name": "Controls",
@@ -716,13 +989,22 @@
                 "name": "Cocoapods",
                 "items": [
                     {
-                        "name": "Alamofire",
-                        "level": 1
+                        "name": "Databases",
+                        "items": [
+                            {
+                                "name": "Alamofire",
+                                "level": 1
+                            },
+                            {
+                                "name": "Firebase",
+                                "level": 1
+                            },
+                            {
+                                "name": "Realm"
+                            }
+                        ]
                     },
-                    {
-                        "name": "Firebase",
-                        "level": 1
-                    }
+                    
                 ]
             },
             {
@@ -761,7 +1043,12 @@
         "items": [
             {
                 "name": "Xcode",
-                "level": 3
+                "items": [
+                    {
+                        "name": "https://help.apple.com/xcode/mac/current/",
+                        "level": 3
+                    }
+                ]
             },
             {
                 "name": "Instruments",
@@ -770,7 +1057,11 @@
             {
                 "name": "Git",
                 "level": 4
-            }
+            },
+            {
+                "name": "Rubber Duck",
+                "level": 4
+            },
         ]
     },
     {
@@ -794,6 +1085,10 @@
             },
             {
                 "name": "Stack Overflow",
+                "level": 5
+            },
+            {
+                "name": "Unix",
                 "level": 5
             }
         ]
