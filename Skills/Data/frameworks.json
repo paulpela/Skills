@@ -1011,7 +1011,104 @@
                         },
                         {
                             "name": "Firebase",
-                            "level": 1
+                            "items": [
+                                {
+                                    "name": "Basics",
+                                    "items": [
+                                        {
+                                            "name": "Set up and manage a project",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Analytics"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Develop",
+                                    "items": [
+                                        {
+                                            "name": "Authentication",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Realtime Database",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Cloud Firestore",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Storage"
+                                        },
+                                        {
+                                            "name": "Hosting"
+                                        },
+                                        {
+                                            "name": "Cloud Functions"
+                                        },
+                                        {
+                                            "name": "ML Kit",
+                                            "optional": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Quality",
+                                    "optional": true,
+                                    "items": [
+                                        {
+                                            "name": "Crashlytics"
+                                        },
+                                        {
+                                            "name": "Performance Monitoring"
+                                        },
+                                        {
+                                            "name": "Test Lab"
+                                        },
+                                        {
+                                            "name": "Crash Reporting"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Grow",
+                                    "optional": true,
+                                    "items": [
+                                        {
+                                            "name": "Predictions"
+                                        },
+                                        {
+                                            "name": "A/B Testing"
+                                        },
+                                        {
+                                            "name": "Cloud Messaging"
+                                        },
+                                        {
+                                            "name": "In-App Messaging"
+                                        },
+                                        {
+                                            "name": "Remote Config"
+                                        },
+                                        {
+                                            "name": "Dynamic Links"
+                                        },
+                                        {
+                                            "name": "App Indexing"
+                                        },
+                                        {
+                                            "name": "Invites"
+                                        },
+                                        {
+                                            "name": "Google Ads"
+                                        },
+                                        {
+                                            "name": "Google AdMob"
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "name": "Realm"
