@@ -174,7 +174,31 @@
                     },
                     {
                         "name": "Enumerations",
-                        "level": 3
+                        "items": [
+                            {
+                                "name": "Enumeration Syntax",
+                                "level": 4
+                            },
+                            {
+                                "name": "Matching Enumeration Values with a Switch Statement",
+                                "level": 4
+                            },
+                            {
+                                "name": "Iterating over Enumeration Cases",
+                                "level": 2
+                            },
+                            {
+                                "name": "Associated Values",
+                                "level": 2
+                            },
+                            {
+                                "name": "Raw Values",
+                                "level": 3
+                            },
+                            {
+                                "name": "Recursive Enumerations"
+                            }
+                        ]
                     },
                     {
                         "name": "Structures and Classes",
