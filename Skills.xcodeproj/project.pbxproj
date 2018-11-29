@@ -16,6 +16,7 @@
 		E5E7F6D521AF67B20077CD15 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6D421AF67B20077CD15 /* data.json */; };
 		E5E7F6D721AF68020077CD15 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D621AF68020077CD15 /* Skill.swift */; };
 		E5E7F6D921AF6E180077CD15 /* SkillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */; };
+		E5E7F6DB21AF9BAD0077CD15 /* Skill+Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6DA21AF9BAD0077CD15 /* Skill+Level.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E5E7F6D421AF67B20077CD15 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		E5E7F6D621AF68020077CD15 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewCell.swift; sourceTree = "<group>"; };
+		E5E7F6DA21AF9BAD0077CD15 /* Skill+Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Skill+Level.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */,
 				E5E7F6D621AF68020077CD15 /* Skill.swift */,
 				E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */,
+				E5E7F6DA21AF9BAD0077CD15 /* Skill+Level.swift */,
 			);
 			path = Skill;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				E5E7F6D721AF68020077CD15 /* Skill.swift in Sources */,
 				E5E7F6D921AF6E180077CD15 /* SkillTableViewCell.swift in Sources */,
+				E5E7F6DB21AF9BAD0077CD15 /* Skill+Level.swift in Sources */,
 				E5E7F6BC21AF62790077CD15 /* AppDelegate.swift in Sources */,
 				E5E7F6D321AF66890077CD15 /* SkillTableViewController.swift in Sources */,
 			);
