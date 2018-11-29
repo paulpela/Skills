@@ -724,6 +724,18 @@
                         "level": 1
                     }
                 ]
+            },
+            {
+                "name": "Server Side",
+                "items": [
+                    {
+                        "name": "Vapor",
+                        "level": 1
+                    },
+                    {
+                        "name": "Kitura"
+                    }
+                ]
             }
         ]
     },
