@@ -65,8 +65,8 @@ extension Skill {
             case .adept: return "You have created more advanced products based on the knowledge of this domain."
             case .expert: return "You are beginning to use the knowledge from this domain to creatively resolve problems."
             case .accomplished: return "You are regularly using the knowledge from this domain to creatively resolve problems."
-            case .master: return "You have invented solutions in this domain."
-            case .legendary: return "You have invented solutions in this domain and are known for this."
+            case .master: return "You have invented some solutions in this domain."
+            case .legendary: return "You have invented the solution in this domain."
             }
         }
     }
