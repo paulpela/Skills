@@ -13,19 +13,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    private var skills: [Skill]?
+    static private(set) var rootSkill: Skill?
     
     private let tabs = [
         "Languages",
         "Frameworks",
         "Design",
-        "Tools",
         "General"
     ]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let tabVC = window?.rootViewController as! UITabBarController
+        
+        var skills = [Skill]()
         
         for tab in tabs {
             do {
@@ -40,12 +41,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 
                 addNewTab(skill: skill)
                 
+                skills.append(skill)
+                
                 tabVC.selectedIndex = 0
                 
             } catch let error {
                 fatalError("Error: \(error)")
             }
         }
+        
+        AppDelegate.rootSkill = Skill(name: "Root", level: nil, items: skills)
+        
+        let profileVC = UIStoryboard(name: "Profile", bundle: nil).instantiateInitialViewController() as! ProfileViewController
+        let newNavVC = UINavigationController(rootViewController: profileVC)
+        profileVC.title = "Profile"
+        newNavVC.tabBarItem.title = "Profile"
+        newNavVC.tabBarItem.image = UIImage(named: "first")
+        window?.rootViewController?.addChild(profileVC)
         
         return true
     }

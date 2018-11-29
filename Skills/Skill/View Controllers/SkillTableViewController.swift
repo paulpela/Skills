@@ -45,7 +45,8 @@ class SkillTableViewController: UITableViewController {
             if let currentLevel = skills?[indexPath.row].level, currentLevel != .legendary {
                 let nextLevel = Skill.Level(rawValue: currentLevel.rawValue + 1)
                 
-                let levelDescription = nextLevel?.requirements.joined(separator: "\n")
+                let levelDescription = nextLevel?.requirements.joined(separator: "\n") ?? ""
+                
                 let alert = UIAlertController(title: "Advance \(skills?[indexPath.row].name ?? "this skill")?", message: "You are advancing this skill to \((nextLevel?.string)!).\n\(levelDescription)", preferredStyle: .alert)
                 
                 alert.addAction(UIAlertAction(title: "Advance", style: .default, handler: { (action) in
@@ -66,5 +67,4 @@ class SkillTableViewController: UITableViewController {
             self.navigationController?.pushViewController(newVC, animated: true)
         }
     }
-
 }
