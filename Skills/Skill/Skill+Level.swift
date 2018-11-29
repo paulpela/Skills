@@ -82,4 +82,10 @@ extension Skill {
             }
         }
     }
+    
+    func advanceLevel() {
+        let currentLevel = self.level?.rawValue ?? 0
+        
+        self.level = Level(rawValue: currentLevel + 1)
+    }
 }

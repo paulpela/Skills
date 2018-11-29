@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Skill: Codable {
+class Skill: Codable {
     enum CodingKeys : String, CodingKey {
         case name
         case _level = "level"
@@ -51,4 +51,5 @@ struct Skill: Codable {
         self._level = level
         self.items = items
     }
+    
 }
