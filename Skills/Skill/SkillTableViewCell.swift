@@ -26,8 +26,8 @@ class SkillTableViewCell: UITableViewCell {
         if let skill = skill {
             skillNameLabel.text = skill.name
             skillLevelNameLabel.text = skill.level?.string ?? "no skill"
-            skillLevelNameLabel.textColor = skill.level?.colors.fg
-            skillLevelBackground.backgroundColor = skill.level?.colors.bg
+            skillLevelNameLabel.textColor = skill.level?.colors.fg ?? .white
+            skillLevelBackground.backgroundColor = skill.level?.colors.bg ?? .darkGray
             
             if skill.items != nil {
                 accessoryType = .disclosureIndicator

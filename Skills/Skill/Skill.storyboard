@@ -27,16 +27,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jxz-gm-pMp">
-                                            <rect key="frame" x="16" y="10" width="317" height="24"/>
+                                            <rect key="frame" x="16" y="10" width="305" height="24"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fd-vs-nP3">
-                                                    <rect key="frame" x="0.0" y="0.0" width="219" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X6V-K9-1Li">
-                                                    <rect key="frame" x="227" y="0.0" width="90" height="24"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="24"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGH-DA-v6L">
                                                             <rect key="frame" x="29.5" y="4.5" width="31" height="14.5"/>
@@ -53,17 +47,21 @@
                                                         <constraint firstAttribute="height" constant="24" id="wuZ-i0-lrD"/>
                                                     </constraints>
                                                 </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fd-vs-nP3">
+                                                    <rect key="frame" x="98" y="0.0" width="207" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </stackView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="jxz-gm-pMp" secondAttribute="trailing" constant="20" symbolic="YES" id="NKa-am-Laq"/>
                                         <constraint firstItem="jxz-gm-pMp" firstAttribute="leading" secondItem="XRo-72-9nI" secondAttribute="leading" constant="16" id="nDe-Mh-Ibb"/>
                                         <constraint firstItem="jxz-gm-pMp" firstAttribute="centerY" secondItem="XRo-72-9nI" secondAttribute="centerY" id="xys-me-LUb"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="jxz-gm-pMp" secondAttribute="trailing" constant="42" id="9iO-1D-M7d"/>
-                                </constraints>
                                 <connections>
                                     <outlet property="skillLevelBackground" destination="X6V-K9-1Li" id="Ip0-4z-szc"/>
                                     <outlet property="skillLevelNameLabel" destination="sGH-DA-v6L" id="zgG-d4-Gyv"/>

@@ -6,37 +6,345 @@
                 "name": "Swift",
                 "items": [
                     {
-                        "name": "Test",
+                        "name": "Basics",
+                        "items": [
+                            {
+                                "name": "Constants and Variables",
+                                "level": 6
+                            },
+                            {
+                                "name": "Comments",
+                                "level": 6
+                            },
+                            {
+                                "name": "Integers",
+                                "level": 6
+                            },
+                            {
+                                "name": "Floating-Point Numbers",
+                                "level": 6
+                            },
+                            {
+                                "name": "Type Safety and Type Inference",
+                                "level": 6
+                            },
+                            {
+                                "name": "Numeric Literals",
+                                "level": 6
+                            },
+                            {
+                                "name": "Numeric Type Conversion",
+                                "level": 6
+                            },
+                            {
+                                "name": "Type Aliases",
+                                "level": 6
+                            },
+                            {
+                                "name": "Booleans",
+                                "level": 6
+                            },
+                            {
+                                "name": "Tuples",
+                                "level": 5
+                            },
+                            {
+                                "name": "Optionals",
+                                "level": 5
+                            },
+                            {
+                                "name": "Error Handling",
+                                "level": 3
+                            },
+                            {
+                                "name": "Assertions and Preconditions",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Basic Operators",
+                        "items": [
+                            {
+                                "name": "Assignment Operator",
+                                "level": 6
+                            },
+                            {
+                                "name": "Arithmetic Operators",
+                                "level": 6
+                            },
+                            {
+                                "name": "Compound Assignment Operators",
+                                "level": 6
+                            },
+                            {
+                                "name": "Comparison Operators",
+                                "level": 6
+                            },
+                            {
+                                "name": "Ternary Conditional Operator",
+                                "level": 6
+                            },
+                            {
+                                "name": "Nil-Coalescing Operator",
+                                "level": 4
+                            },
+                            {
+                                "name": "Range Operators",
+                                "level": 3
+                            },
+                            {
+                                "name": "Logical Operators",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Strings and Characters",
                         "level": 3
                     },
                     {
-                        "name": "Test 2",
-                        "level": 6
+                        "name": "Collection Types",
+                        "level": 3
+                    },
+                    {
+                        "name": "Control Flow",
+                        "level": 4
+                    },
+                    {
+                        "name": "Functions",
+                        "level": 5
+                    },
+                    {
+                        "name": "Closures",
+                        "level": 3
+                    },
+                    {
+                        "name": "Enumerations",
+                        "level": 3
+                    },
+                    {
+                        "name": "Structures and Classes",
+                        "level": 4
+                    },
+                    {
+                        "name": "Properties",
+                        "level": 5
+                    },
+                    {
+                        "name": "Methods",
+                        "level": 5
+                    },
+                    {
+                        "name": "Subscripts",
+                        "items": [
+                            {
+                                "name": "Subscript Syntax",
+                                "level": 3
+                            },
+                            {
+                                "name": "Subscript Usage",
+                                "level": 3
+                            },
+                            {
+                                "name": "Subscript Options",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inheritance",
+                        "level": 3
+                    },
+                    {
+                        "name": "Initialization",
+                        "level": 3
+                    },
+                    {
+                        "name": "Deinitialization",
+                        "level": 2
+                    },
+                    {
+                        "name": "Optional Chaining",
+                        "level": 3
+                    },
+                    {
+                        "name": "Error Handling",
+                        "level": 3
+                    },
+                    {
+                        "name": "Type Casting",
+                        "level": 4
+                    },
+                    {
+                        "name": "Nested Types",
+                        "level": 3
+                    },
+                    {
+                        "name": "Extensions",
+                        "level": 4
+                    },
+                    {
+                        "name": "Protocols",
+                        "level": 4
+                    },
+                    {
+                        "name": "Generics",
+                        "level": 3
+                    },
+                    {
+                        "name": "Automatic Reference Counting",
+                        "level": 3
+                    },
+                    {
+                        "name": "Memory Safety",
+                        "level": 2
+                    },
+                    {
+                        "name": "Access Control",
+                        "level": 3
+                    },
+                    {
+                        "name": "Advanced Operators",
+                        "level": 2
+                    },
+                ]
+            },
+            {
+                "name": "Objective-C",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "name": "Frameworks",
+        "items": [
+            {
+                "name": "Apple's Frameworks",
+                "items": [
+                    {
+                        "name": "App Frameworks",
+                        "items": [
+                            {
+                                "name": "Foundation",
+                                "level": 3
+                            },
+                            {
+                                "name": "UIKit",
+                                "level": 3
+                            },
+                            {
+                                "name": "AppKit",
+                                "level": 1
+                            },
+                            {
+                                "name": "TVML"
+                            },
+                            {
+                                "name": "TVMLKit"
+                            },
+                            {
+                                "name": "TVMLKit JS"
+                            },
+                            {
+                                "name": "TVUIKit"
+                            },
+                            {
+                                "name": "WatchKit"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Graphics and Games",
+                        "items": [
+                            {
+                                "name": "SpriteKit",
+                                "level": 1
+                            },
+                            {
+                                "name": "GameplayKit",
+                                "level": 1
+                            },
+                            {
+                                "name": "Metal"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "App Services",
+                        "items": [
+                            {
+                                "name": "MapKit",
+                                "level": 1
+                            },
+                            {
+                                "name": "Core Data",
+                                "level": 1
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Objective-C"
+                "name": "Cocoapods",
+                "items": [
+                    {
+                        "name": "Alamofire",
+                        "level": 1
+                    },
+                    {
+                        "name": "Firebase",
+                        "level": 1
+                    }
+                ]
             }
         ]
     },
     {
-        "name": "Frameworks"
+        "name": "Design",
+        
     },
     {
-        "name": "Cocoapods",
+        "name": "Tools",
         "items": [
             {
-                "name": "Alamofire",
-                "level": 1
+                "name": "Xcode",
+                "level": 3
             },
             {
-                "name": "Firebase",
+                "name": "Interface Builder",
+                "level": 3
+            },
+            {
+                "name": "Instruments",
+                "level": 2
+            },
+            {
+                "name": "Git",
+                "level": 4
+            },
+            {
+                "name": "Sketch",
                 "level": 1
             }
         ]
     },
     {
-        "name": "Tools"
+        "name": "General",
+        "items": [
+            {
+                "name": "Design Patterns",
+                "level": 3
+            },
+            {
+                "name": "Algorithms",
+                "level": 3
+            },
+            {
+                "name": "TDD",
+                "level": 2
+            }
+        ]
+        
     }
 ]
