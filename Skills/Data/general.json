@@ -207,7 +207,111 @@
         },
         {
             "name": "Design Patterns",
-            "level": 3
+            "items": [
+                {
+                    "name": "Creational Patterns",
+                    "items": [
+                        {
+                            "name": "Factory Method",
+                            "level": 3
+                        },
+                        {
+                            "name": "Abstract Factory",
+                            "level": 3
+                        },
+                        {
+                            "name": "Builder",
+                            "level": 3
+                        },
+                        {
+                            "name": "Prototype",
+                            "level": 3
+                        },
+                        {
+                            "name": "Singleton",
+                            "level": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "Structural Patterns",
+                    "items": [
+                        {
+                            "name": "Adapter",
+                            "level": 3
+                        },
+                        {
+                            "name": "Bridge",
+                            "level": 3
+                        },
+                        {
+                            "name": "Composite",
+                            "level": 3
+                        },
+                        {
+                            "name": "Decorator",
+                            "level": 3
+                        },
+                        {
+                            "name": "Facade",
+                            "level": 3
+                        },
+                        {
+                            "name": "Flyweight",
+                            "level": 3
+                        },
+                        {
+                            "name": "Proxy",
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Behavioral Patterns",
+                    "items": [
+                        {
+                            "name": "Chain of Responsibility",
+                            "level": 4
+                        },
+                        {
+                            "name": "Command",
+                            "level": 3
+                        },
+                        {
+                            "name": "Iterator",
+                            "level": 3
+                        },
+                        {
+                            "name": "Mediator",
+                            "level": 3
+                        },
+                        {
+                            "name": "Memento",
+                            "level": 3
+                        },
+                        {
+                            "name": "Observer",
+                            "level": 4
+                        },
+                        {
+                            "name": "State",
+                            "level": 4
+                        },
+                        {
+                            "name": "Strategy",
+                            "level": 4
+                        },
+                        {
+                            "name": "Template Method",
+                            "level": 3
+                        },
+                        {
+                            "name": "Visitor",
+                            "level": 3
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Algorithms",
