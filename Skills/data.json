@@ -496,11 +496,128 @@
                                 "items": [
                                     {
                                         "name": "App Structure",
-                                        "level": 1
+                                        "items": [
+                                            {
+                                                "name": "Core App",
+                                                "items": [
+                                                    {
+                                                        "name": "Application",
+                                                        "level": 3
+                                                    },
+                                                    {
+                                                        "name": "Device Environment",
+                                                        "level": 1
+                                                    },
+                                                    {
+                                                        "name": "Documents"
+                                                    },
+                                                    {
+                                                        "name": "Pasteboard"
+                                                    },
+                                                    {
+                                                        "name": "Data Management"
+                                                    },
+                                                    {
+                                                        "name": "User Activities"
+                                                    },
+                                                    {
+                                                        "name": "Guided Access"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Resource Management",
+                                                "items": [
+                                                    {
+                                                        "name": "Storyboards",
+                                                        "level": 3
+                                                    },
+                                                    {
+                                                        "name": "Assets",
+                                                        "level": 2
+                                                    },
+                                                    {
+                                                        "name": "Nib Files",
+                                                        "level": 1
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "App Extensions",
+                                                "items": [
+                                                    {
+                                                        "name": "Extension Support"
+                                                    },
+                                                    {
+                                                        "name": "Document Provider"
+                                                    },
+                                                    {
+                                                        "name": "Custom Keyboard"
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     },
                                     {
                                         "name": "User Interface",
-                                        "level": 2
+                                        "items": [
+                                            {
+                                                "name": "Views and Controls",
+                                                "items": [
+                                                    {
+                                                        "name": "UIView",
+                                                        "level": 3
+                                                    },
+                                                    {
+                                                        "name": "Container Views",
+                                                        "level": 3
+                                                    },
+                                                    {
+                                                        "name": "Content Views",
+                                                        "level": 2
+                                                    },
+                                                    {
+                                                        "name": "Controls",
+                                                        "level": 2
+                                                    },
+                                                    {
+                                                        "name": "Text Views",
+                                                        "level": 2
+                                                    },
+                                                    {
+                                                        "name": "Visual Effects",
+                                                        "level": 1
+                                                    },
+                                                    {
+                                                        "name": "Bars",
+                                                        "level": 2
+                                                    },
+                                                    {
+                                                        "name": "Appearance Customization"
+                                                    },
+                                                    {
+                                                        "name": "Related Types",
+                                                        "level": 1
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "View Controllers",
+                                                "level": 3
+                                            },
+                                            {
+                                                "name": "View Layout",
+                                                "level": 3
+                                            },
+                                            {
+                                                "name": "Animation and Haptics",
+                                                "level": 2
+                                            },
+                                            {
+                                                "name": "Windows and Screens",
+                                                "level": 1
+                                            }
+                                        ]
                                     },
                                     {
                                         "name": "User Interactions",
@@ -596,6 +713,10 @@
             {
                 "name": "Sketch",
                 "level": 1
+            },
+            {
+                "name": "Material Design",
+                "level": 1
             }
         ]
     },
@@ -628,8 +749,16 @@
                 "level": 3
             },
             {
+                "name": "Functional Programming",
+                "level": 3
+            },
+            {
                 "name": "TDD",
                 "level": 3
+            },
+            {
+                "name": "Stack Overflow",
+                "level": 5
             }
         ]
         
