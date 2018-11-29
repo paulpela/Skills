@@ -315,7 +315,39 @@
         },
         {
             "name": "Algorithms",
-            "level": 3
+            "items": [
+                {
+                    "name": "Notations",
+                    "items": [
+                        {
+                            "name": "Big-O Notation",
+                            "level": 3
+                        },
+                        {
+                            "name": "Big-Theta Notation",
+                            "optional": true,
+                            "level": 1
+                        },
+                        {
+                            "name": "Big-Omega Notation",
+                            "optional": true,
+                            "level": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Search Algorithms",
+                    "level": 3
+                },
+                {
+                    "name": "Sorting Algorithms",
+                    "level": 3
+                },
+                {
+                    "name": "Data Structures",
+                    "level": 5
+                }
+            ]
         },
         {
             "name": "Functional Programming",
