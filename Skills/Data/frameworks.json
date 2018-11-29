@@ -29,6 +29,7 @@
                                                         },
                                                         {
                                                             "name": "Decimal",
+                                                            "optional": true,
                                                             "level": 2
                                                         }
                                                     ]
