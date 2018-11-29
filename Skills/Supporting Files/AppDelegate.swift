@@ -14,25 +14,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     private var skills: [Skill]?
+    
+    private let tabs = [
+        "Languages",
+        "Frameworks",
+        "Design",
+        "Tools",
+        "General"
+    ]
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        do {
-            let data = try Data(contentsOf: Bundle.main.url(forResource: "data", withExtension: "json")!)
-            
-            skills = try JSONDecoder().decode([Skill].self, from: data)
-            
-            let tabVC = window?.rootViewController as! UITabBarController
-            
-            if let skills = skills {
-                for tab in skills {
-                    addNewTab(skill: tab)
-                }
+        let tabVC = window?.rootViewController as! UITabBarController
+        
+        for tab in tabs {
+            do {
+                let data = try Data(
+                    contentsOf: Bundle.main.url(
+                        forResource: tab.lowercased(),
+                        withExtension: "json"
+                        )!
+                )
+                
+                let skill = try JSONDecoder().decode(Skill.self, from: data)
+                
+                addNewTab(skill: skill)
                 
                 tabVC.selectedIndex = 0
+                
+            } catch let error {
+                fatalError("Error: \(error)")
             }
-        } catch let error {
-            fatalError("Error: \(error)")
         }
         
         return true

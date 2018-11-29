@@ -13,10 +13,14 @@
 		E5E7F6C821AF627B0077CD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6C621AF627B0077CD15 /* LaunchScreen.storyboard */; };
 		E5E7F6D121AF62B00077CD15 /* Skill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6D021AF62B00077CD15 /* Skill.storyboard */; };
 		E5E7F6D321AF66890077CD15 /* SkillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */; };
-		E5E7F6D521AF67B20077CD15 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6D421AF67B20077CD15 /* data.json */; };
+		E5E7F6D521AF67B20077CD15 /* general.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6D421AF67B20077CD15 /* general.json */; };
 		E5E7F6D721AF68020077CD15 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D621AF68020077CD15 /* Skill.swift */; };
 		E5E7F6D921AF6E180077CD15 /* SkillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */; };
 		E5E7F6DB21AF9BAD0077CD15 /* Skill+Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6DA21AF9BAD0077CD15 /* Skill+Level.swift */; };
+		E5E7F70121B0703C0077CD15 /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F70021B0703C0077CD15 /* languages.json */; };
+		E5E7F70321B070730077CD15 /* frameworks.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F70221B070730077CD15 /* frameworks.json */; };
+		E5E7F70521B070920077CD15 /* design.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F70421B070920077CD15 /* design.json */; };
+		E5E7F70721B070AB0077CD15 /* tools.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F70621B070AB0077CD15 /* tools.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +32,15 @@
 		E5E7F6C921AF627B0077CD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5E7F6D021AF62B00077CD15 /* Skill.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Skill.storyboard; sourceTree = "<group>"; };
 		E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewController.swift; sourceTree = "<group>"; };
-		E5E7F6D421AF67B20077CD15 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E5E7F6D421AF67B20077CD15 /* general.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = general.json; sourceTree = "<group>"; };
 		E5E7F6D621AF68020077CD15 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewCell.swift; sourceTree = "<group>"; };
 		E5E7F6DA21AF9BAD0077CD15 /* Skill+Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Skill+Level.swift"; sourceTree = "<group>"; };
 		E5E7F6F821B0513D0077CD15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E5E7F70021B0703C0077CD15 /* languages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
+		E5E7F70221B070730077CD15 /* frameworks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = frameworks.json; sourceTree = "<group>"; };
+		E5E7F70421B070920077CD15 /* design.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = design.json; sourceTree = "<group>"; };
+		E5E7F70621B070AB0077CD15 /* tools.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tools.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,11 @@
 		E5E7F6F921B06C390077CD15 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				E5E7F6D421AF67B20077CD15 /* data.json */,
+				E5E7F6D421AF67B20077CD15 /* general.json */,
+				E5E7F70021B0703C0077CD15 /* languages.json */,
+				E5E7F70221B070730077CD15 /* frameworks.json */,
+				E5E7F70421B070920077CD15 /* design.json */,
+				E5E7F70621B070AB0077CD15 /* tools.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -190,8 +202,12 @@
 				E5E7F6C821AF627B0077CD15 /* LaunchScreen.storyboard in Resources */,
 				E5E7F6C521AF627B0077CD15 /* Assets.xcassets in Resources */,
 				E5E7F6D121AF62B00077CD15 /* Skill.storyboard in Resources */,
-				E5E7F6D521AF67B20077CD15 /* data.json in Resources */,
+				E5E7F70121B0703C0077CD15 /* languages.json in Resources */,
+				E5E7F70721B070AB0077CD15 /* tools.json in Resources */,
+				E5E7F6D521AF67B20077CD15 /* general.json in Resources */,
+				E5E7F70521B070920077CD15 /* design.json in Resources */,
 				E5E7F6C321AF62790077CD15 /* Main.storyboard in Resources */,
+				E5E7F70321B070730077CD15 /* frameworks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9UGPKX3A64;
-				INFOPLIST_FILE = Skills/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Skills/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9UGPKX3A64;
-				INFOPLIST_FILE = Skills/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Skills/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

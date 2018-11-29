@@ -1,0 +1,540 @@
+{
+    "name": "Languages",
+    "items": [
+        {
+            "name": "Swift",
+            "items": [
+                {
+                    "name": "Basics",
+                    "items": [
+                        {
+                            "name": "Constants and Variables",
+                            "level": 6
+                        },
+                        {
+                            "name": "Comments",
+                            "level": 6
+                        },
+                        {
+                            "name": "Integers",
+                            "level": 6
+                        },
+                        {
+                            "name": "Floating-Point Numbers",
+                            "level": 6
+                        },
+                        {
+                            "name": "Type Safety and Type Inference",
+                            "level": 6
+                        },
+                        {
+                            "name": "Numeric Literals",
+                            "level": 6
+                        },
+                        {
+                            "name": "Numeric Type Conversion",
+                            "level": 6
+                        },
+                        {
+                            "name": "Type Aliases",
+                            "level": 6
+                        },
+                        {
+                            "name": "Booleans",
+                            "level": 6
+                        },
+                        {
+                            "name": "Tuples",
+                            "level": 5
+                        },
+                        {
+                            "name": "Optionals",
+                            "level": 5
+                        },
+                        {
+                            "name": "Error Handling",
+                            "level": 3
+                        },
+                        {
+                            "name": "Assertions and Preconditions",
+                            "level": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Basic Operators",
+                    "items": [
+                        {
+                            "name": "Assignment Operator",
+                            "level": 6
+                        },
+                        {
+                            "name": "Arithmetic Operators",
+                            "level": 6
+                        },
+                        {
+                            "name": "Compound Assignment Operators",
+                            "level": 6
+                        },
+                        {
+                            "name": "Comparison Operators",
+                            "level": 6
+                        },
+                        {
+                            "name": "Ternary Conditional Operator",
+                            "level": 6
+                        },
+                        {
+                            "name": "Nil-Coalescing Operator",
+                            "level": 4
+                        },
+                        {
+                            "name": "Range Operators",
+                            "level": 3
+                        },
+                        {
+                            "name": "Logical Operators",
+                            "level": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "Strings and Characters",
+                    "items": [
+                        {
+                            "name": "String Literals",
+                            "level": 4
+                        },
+                        {
+                            "name": "Initializing an Empty String",
+                            "level": 5
+                        },
+                        {
+                            "name": "String Mutability",
+                            "level": 5
+                        },
+                        {
+                            "name": "Strings Are Value Types",
+                            "level": 4
+                        },
+                        {
+                            "name": "Working with Characters",
+                            "level": 2
+                        },
+                        {
+                            "name": "Concatenating Strings and Characters",
+                            "level": 3
+                        },
+                        {
+                            "name": "String Interpolation",
+                            "level": 4
+                        },
+                        {
+                            "name": "Unicode",
+                            "level": 3
+                        },
+                        {
+                            "name": "Counting Characters",
+                            "level": 2
+                        },
+                        {
+                            "name": "Accessing and Modifying a String",
+                            "level": 2
+                        },
+                        {
+                            "name": "Substrings",
+                            "level": 2
+                        },
+                        {
+                            "name": "Comparing Strings",
+                            "level": 2
+                        },
+                        {
+                            "name": "Unicode Representations of Strings",
+                            "level": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Collection Types",
+                    "level": 3
+                },
+                {
+                    "name": "Control Flow",
+                    "level": 4
+                },
+                {
+                    "name": "Functions",
+                    "level": 5
+                },
+                {
+                    "name": "Closures",
+                    "items": [
+                        {
+                            "name": "Closure Expressions",
+                            "level": 3
+                        },
+                        {
+                            "name": "Trailing Closures",
+                            "level": 4
+                        },
+                        {
+                            "name": "Implicit Returns",
+                            "level": 4
+                        },
+                        {
+                            "name": "Shorthand Argument Names",
+                            "level": 3
+                        },
+                        {
+                            "name": "Operator Methods",
+                            "level": 2
+                        },
+                        {
+                            "name": "Capturing Values",
+                            "level": 3
+                        },
+                        {
+                            "name": "Closures Are Reference Types",
+                            "level": 5
+                        },
+                        {
+                            "name": "Escaping Closures",
+                            "level": 1
+                        },
+                        {
+                            "name": "Autoclosures",
+                            "level": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "Enumerations",
+                    "items": [
+                        {
+                            "name": "Enumeration Syntax",
+                            "level": 4
+                        },
+                        {
+                            "name": "Matching Enumeration Values with a Switch Statement",
+                            "level": 4
+                        },
+                        {
+                            "name": "Iterating over Enumeration Cases",
+                            "level": 2
+                        },
+                        {
+                            "name": "Associated Values",
+                            "level": 2
+                        },
+                        {
+                            "name": "Raw Values",
+                            "level": 3
+                        },
+                        {
+                            "name": "Recursive Enumerations"
+                        }
+                    ]
+                },
+                {
+                    "name": "Structures and Classes",
+                    "level": 4
+                },
+                {
+                    "name": "Properties",
+                    "level": 5
+                },
+                {
+                    "name": "Methods",
+                    "level": 5
+                },
+                {
+                    "name": "Subscripts",
+                    "items": [
+                        {
+                            "name": "Subscript Syntax",
+                            "level": 3
+                        },
+                        {
+                            "name": "Subscript Usage",
+                            "level": 5
+                        },
+                        {
+                            "name": "Subscript Options",
+                            "level": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Inheritance",
+                    "level": 3
+                },
+                {
+                    "name": "Initialization",
+                    "level": 3
+                },
+                {
+                    "name": "Deinitialization",
+                    "level": 3
+                },
+                {
+                    "name": "Optional Chaining",
+                    "level": 3
+                },
+                {
+                    "name": "Error Handling",
+                    "level": 3
+                },
+                {
+                    "name": "Type Casting",
+                    "level": 4
+                },
+                {
+                    "name": "Nested Types",
+                    "level": 3
+                },
+                {
+                    "name": "Extensions",
+                    "level": 4
+                },
+                {
+                    "name": "Protocols",
+                    "level": 4
+                },
+                {
+                    "name": "Generics",
+                    "level": 3
+                },
+                {
+                    "name": "Automatic Reference Counting",
+                    "level": 3
+                },
+                {
+                    "name": "Memory Safety",
+                    "items": [
+                        {
+                            "name": "Understanding Conflicting Access to Memory",
+                            "level": 3
+                        },
+                        {
+                            "name": "Conflicting Access to In-Out Parameters",
+                            "level": 1
+                        },
+                        {
+                            "name": "Conflicting Access to self in Methods",
+                            "level": 1
+                        },
+                        {
+                            "name": "Conflicting Access to Properties",
+                            "level": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Access Control",
+                    "level": 3
+                },
+                {
+                    "name": "Advanced Operators",
+                    "items": [
+                        {
+                            "name": "Bitwise Operators",
+                            "items": [
+                                {
+                                    "name": "Bitwise NOT Operator",
+                                    "level": 5
+                                },
+                                {
+                                    "name": "Bitwise AND Operator",
+                                    "level": 5
+                                },
+                                {
+                                    "name": "Bitwise OR Operator",
+                                    "level": 5
+                                },
+                                {
+                                    "name": "Bitwise XOR Operator",
+                                    "level": 4
+                                },
+                                {
+                                    "name": "Bitwise Left and Right Shift Operators",
+                                    "level": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Overflow Operators",
+                            "level": 1
+                        },
+                        {
+                            "name": "Precedence and Associativity",
+                            "level": 3
+                        },
+                        {
+                            "name": "Operator Methods",
+                            "items": [
+                                {
+                                    "name": "Operator Methods Syntax",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Prefix and Postfix Operators",
+                                    "level": 2
+                                },
+                                {
+                                    "name": "Compound Assignment Operators",
+                                    "level": 2
+                                },
+                                {
+                                    "name": "Equivalence Operators",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Custom Operators",
+                                    "level": 3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Objective-C",
+            "items": [
+                {
+                    "name": "Program Structure",
+                    "level": 2
+                },
+                {
+                    "name": "Basic Syntax",
+                    "level": 2
+                },
+                {
+                    "name": "Data Types",
+                    "level": 2
+                },
+                {
+                    "name": "Variables",
+                    "level": 3
+                },
+                {
+                    "name": "Constants",
+                    "level": 2
+                },
+                {
+                    "name": "Operators",
+                    "level": 5
+                },
+                {
+                    "name": "Loops",
+                    "level": 4
+                },
+                {
+                    "name": "Decision Making",
+                    "level": 5
+                },
+                {
+                    "name": "Functions",
+                    "level": 2
+                },
+                {
+                    "name": "Blocks",
+                    "level": 1
+                },
+                {
+                    "name": "Numbers",
+                    "level": 2
+                },
+                {
+                    "name": "Arrays",
+                    "level": 3
+                },
+                {
+                    "name": "Pointers",
+                    "level": 4
+                },
+                {
+                    "name": "Strings",
+                    "level": 2
+                },
+                {
+                    "name": "Structures",
+                    "level": 4
+                },
+                {
+                    "name": "Preprocessors",
+                    "level": 4
+                },
+                {
+                    "name": "Typedef",
+                    "level": 3
+                },
+                {
+                    "name": "Type Casting",
+                    "level": 3
+                },
+                {
+                    "name": "Log Handling",
+                    "level": 2
+                },
+                {
+                    "name": "Error Handling",
+                    "level": 1
+                },
+                {
+                    "name": "Command-Line Arguments",
+                    "level": 3
+                },
+                {
+                    "name": "Classes & Objects",
+                    "level": 2
+                },
+                {
+                    "name": "Inheritance",
+                    "level": 2
+                },
+                {
+                    "name": "Polymorphism",
+                    "level": 2
+                },
+                {
+                    "name": "Data Encapsulation",
+                    "level": 1
+                },
+                {
+                    "name": "Categories",
+                    "level": 1
+                },
+                {
+                    "name": "Extensions",
+                    "level": 1
+                },
+                {
+                    "name": "Protocols",
+                    "level": 1
+                },
+                {
+                    "name": "Dynamic Binding",
+                    "level": 1
+                },
+                {
+                    "name": "Composite Objects",
+                    "level": 1
+                },
+                {
+                    "name": "Foundation Framework",
+                    "level": 1
+                },
+                {
+                    "name": "Fast Enumeration",
+                    "level": 1
+                },
+                {
+                    "name": "Memory Management",
+                    "level": 2
+                }
+            ]
+        }
+    ]
+}

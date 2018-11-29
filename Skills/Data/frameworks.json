@@ -1,0 +1,921 @@
+{
+    "name": "Frameworks",
+    "items": [
+        {
+            "name": "Apple's Frameworks",
+            "items": [
+                {
+                    "name": "App Frameworks",
+                    "items": [
+                        {
+                            "name": "Foundation",
+                            "items": [
+                                {
+                                    "name": "Fundamentals",
+                                    "items": [
+                                        {
+                                            "name": "Numbers, Data, and Basic Values",
+                                            "items": [
+                                                {
+                                                    "name": "Numbers",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Binary Data",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "URLs",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Unique Identifiers",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Geometry",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Ranges",
+                                                    "level": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Strings and Text",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Collections",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Dates and Times",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Units and Measurement",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Data Formatting",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Filters and Sorting",
+                                            "level": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "App Support",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Files and Data Persistence",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Networking"
+                                },
+                                {
+                                    "name": "Low-Level Utilities"
+                                },
+                                {
+                                    "name": "Property List Keys"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "UIKit",
+                            "items": [
+                                {
+                                    "name": "App Structure",
+                                    "items": [
+                                        {
+                                            "name": "Core App",
+                                            "items": [
+                                                {
+                                                    "name": "Application",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Device Environment",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Documents"
+                                                },
+                                                {
+                                                    "name": "Pasteboard"
+                                                },
+                                                {
+                                                    "name": "Data Management"
+                                                },
+                                                {
+                                                    "name": "User Activities"
+                                                },
+                                                {
+                                                    "name": "Guided Access"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Resource Management",
+                                            "items": [
+                                                {
+                                                    "name": "Storyboards",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Assets",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Nib Files",
+                                                    "level": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "App Extensions",
+                                            "items": [
+                                                {
+                                                    "name": "Extension Support"
+                                                },
+                                                {
+                                                    "name": "Document Provider"
+                                                },
+                                                {
+                                                    "name": "Custom Keyboard"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "User Interface",
+                                    "items": [
+                                        {
+                                            "name": "Views and Controls",
+                                            "items": [
+                                                {
+                                                    "name": "UIView",
+                                                    "items": [
+                                                        {
+                                                            "name": "Creating a View Object",
+                                                            "level": 3
+                                                        },
+                                                        {
+                                                            "name": "Configuring a View’s Visual Appearance",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "Configuring the Event-Related Behavior",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Configuring the Bounds and Frame Rectangles",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "Managing the View Hierarchy",
+                                                            "level": 3
+                                                        },
+                                                        {
+                                                            "name": "Observing View-Related Changes",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Configuring Content Margins",
+                                                            "level": 0
+                                                        },
+                                                        {
+                                                            "name": "Getting the Safe Area",
+                                                            "level": 0
+                                                        },
+                                                        {
+                                                            "name": "Managing the View’s Constraints",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Creating Constraints Using Layout Anchors",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Working with Layout Guides",
+                                                            "level": 0
+                                                        },
+                                                        {
+                                                            "name": "Measuring in Auto Layout",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Aligning Views in Auto Layout"
+                                                        },
+                                                        {
+                                                            "name": "Triggering Auto Layout",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Debugging Auto Layout"
+                                                        },
+                                                        {
+                                                            "name": "Configuring the Resizing Behavior",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Laying out Subviews",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Managing the User Interface Direction"
+                                                        },
+                                                        {
+                                                            "name": "Adding and Removing Interactions"
+                                                        },
+                                                        {
+                                                            "name": "Drawing and Updating the View",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Formatting Printed View Content"
+                                                        },
+                                                        {
+                                                            "name": "Managing Gesture Recognizers",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Observing Focus"
+                                                        },
+                                                        {
+                                                            "name": "Using Motion Effects"
+                                                        },
+                                                        {
+                                                            "name": "Preserving and Restoring State"
+                                                        },
+                                                        {
+                                                            "name": "Capturing a View Snapshot"
+                                                        },
+                                                        {
+                                                            "name": "Identifying the View at Runtime",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "Converting Between View Coordinate Systems",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Hit Testing in a View"
+                                                        },
+                                                        {
+                                                            "name": "Ending a View Editing Session"
+                                                        },
+                                                        {
+                                                            "name": "Modifying the Accessibility Behavior"
+                                                        },
+                                                        {
+                                                            "name": "Animations",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Animating Views with Block Objects",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Animating Views",
+                                                                    "level": 0
+                                                                }
+                                                            ]
+                                                        }
+                                                        
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Container Views",
+                                                    "items": [
+                                                        {
+                                                            "name": "Collection Views",
+                                                            "items": [
+                                                                {
+                                                                    "name": "View",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Cells",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Layouts",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Updates"
+                                                                },
+                                                                {
+                                                                    "name": "Drag and Drop"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Table Views",
+                                                            "items": [
+                                                                {
+                                                                    "name": "View",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Rows",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Headers and Footers",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Adornments",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Drag and Drop"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Stack Views",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Initializing a Stack View",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Managing Arranged Subviews",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Configuring The Layout",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Adding Space Between Items",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Constants",
+                                                                    "level": 2
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Scroll Views",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Responding to Scroll View Interactions",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Content Size and Offset",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Content Inset Behavior"
+                                                                },
+                                                                {
+                                                                    "name": "Getting the Layout Guides"
+                                                                },
+                                                                {
+                                                                    "name": "Configuring the Scroll View",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Getting the Scrolling State"
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Scroll Indicator and Refresh Control"
+                                                                },
+                                                                {
+                                                                    "name": "Scrolling to a Specific Location",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Managing Touches",
+                                                                    "level": 0
+                                                                },
+                                                                {
+                                                                    "name": "Zooming and Panning",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Keyboard",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Index",
+                                                                    "level": 1
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Content Views",
+                                                    "items": [
+                                                        {
+                                                            "name": "UIActivityIndicatorView"
+                                                        },
+                                                        {
+                                                            "name": "UIImageView",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "UIPickerView",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "UIProgressView",
+                                                            "level": 1
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Controls",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Text Views",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Visual Effects",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Bars",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Appearance Customization"
+                                                },
+                                                {
+                                                    "name": "Related Types",
+                                                    "level": 1
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "View Controllers",
+                                            "items": [
+                                                {
+                                                    "name": "Custom View Controllers",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Split View Interface",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Navigation Interface",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Page View Interface",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Tab View Interface",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Search Interface",
+                                                    "level": 0
+                                                },
+                                                {
+                                                    "name": "Images and Video"
+                                                },
+                                                {
+                                                    "name": "Document Browser"
+                                                },
+                                                {
+                                                    "name": "Document Previewing"
+                                                },
+                                                {
+                                                    "name": "iCloud Sharing",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Activities Interface"
+                                                },
+                                                {
+                                                    "name": "Word Lookup"
+                                                },
+                                                {
+                                                    "name": "Printer Picker"
+                                                },
+                                                {
+                                                    "name": "Presentation Controllers",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Interface Restoration"
+                                                },
+                                                {
+                                                    "name": "Interface Orientation"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "View Layout",
+                                            "items": [
+                                                {
+                                                    "name": "Constraints",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Layout Guides",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Anchors",
+                                                    "level": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Animation and Haptics",
+                                            "items": [
+                                                {
+                                                    "name": "Content Animations",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Physics-Based Animations"
+                                                },
+                                                {
+                                                    "name": "Parallax Effects"
+                                                },
+                                                {
+                                                    "name": "Haptic Feedback"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Windows and Screens",
+                                            "items": [
+                                                {
+                                                    "name": "Windows",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Popovers",
+                                                    "level": 0
+                                                },
+                                                {
+                                                    "name": "Alerts",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Screens"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "User Interactions",
+                                    "items": [
+                                        {
+                                            "name": "Touches, Presses, and Gestures",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Drag and Drop"
+                                        },
+                                        {
+                                            "name": "Pencil Interactions"
+                                        },
+                                        {
+                                            "name": "Focus-based Navigation"
+                                        },
+                                        {
+                                            "name": "Peek and Pop"
+                                        },
+                                        {
+                                            "name": "Keyboard and Menus"
+                                        },
+                                        {
+                                            "name": "Accessibility"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Graphics, Drawing, and Printing",
+                                    "items": [
+                                        {
+                                            "name": "Images and PDF"
+                                        },
+                                        {
+                                            "name": "Drawing",
+                                            "items": [
+                                                {
+                                                    "name": "Drawing Contexts"
+                                                },
+                                                {
+                                                    "name": "Color",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Paths",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Strings"
+                                                },
+                                                {
+                                                    "name": "Shadows",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Drawing Context Primitives"
+                                                },
+                                                {
+                                                    "name": "Primitive Type Conversions"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Printing"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Text",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Property List Keys"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "AppKit",
+                            "level": 1
+                        },
+                        {
+                            "name": "TVML"
+                        },
+                        {
+                            "name": "TVMLKit"
+                        },
+                        {
+                            "name": "TVMLKit JS"
+                        },
+                        {
+                            "name": "TVUIKit"
+                        },
+                        {
+                            "name": "WatchKit"
+                        }
+                    ]
+                },
+                {
+                    "name": "Graphics and Games",
+                    "items": [
+                        {
+                            "name": "Core Graphics",
+                            "items": [
+                                {
+                                    "name": "Geometric Data Types",
+                                    "items": [
+                                        {
+                                            "name": "CGFloat",
+                                            "level": 3
+                                        },
+                                        {
+                                            "name": "CGPoint",
+                                            "level": 3
+                                        },
+                                        {
+                                            "name": "CGSize",
+                                            "level": 3
+                                        },
+                                        {
+                                            "name": "CGRect",
+                                            "level": 3
+                                        },
+                                        {
+                                            "name": "CGVector",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "CGAffineTransform",
+                                            "level": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "2D Drawing",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Colors and Fonts",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Working with PDF Documents"
+                                },
+                                {
+                                    "name": "Utility and Support Classes"
+                                },
+                                {
+                                    "name": "Services"
+                                },
+                                {
+                                    "name": "Enumerations"
+                                },
+                                {
+                                    "name": "Structures"
+                                },
+                                {
+                                    "name": "Classes"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "SpriteKit",
+                            "items": [
+                                {
+                                    "name": "Displaying SpriteKit Content in Your App",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Nodes That Draw Content",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Working with Textures",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Building Content with Tiles",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Animating Content"
+                                },
+                                {
+                                    "name": "Constraining Nodes"
+                                },
+                                {
+                                    "name": "Warping Nodes"
+                                },
+                                {
+                                    "name": "Cameras and Lighting"
+                                },
+                                {
+                                    "name": "Playing Audio"
+                                },
+                                {
+                                    "name": "Simulating Physics"
+                                },
+                                {
+                                    "name": "Particle Systems"
+                                },
+                                {
+                                    "name": "Working with Shaders"
+                                },
+                                {
+                                    "name": "Integrating with Other Frameworks"
+                                },
+                                {
+                                    "name": "Structures"
+                                },
+                                {
+                                    "name": "Classes",
+                                    "items": [
+                                        {
+                                            "name": "SKRenderer"
+                                        },
+                                        {
+                                            "name": "SKTransformNode"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "GameplayKit",
+                            "level": 1
+                        },
+                        {
+                            "name": "Metal"
+                        },
+                        {
+                            "name": "AGL"
+                        },
+                        {
+                            "name": "ARKit"
+                        },
+                        {
+                            "name": "ColorSync"
+                        },
+                        {
+                            "name": "Core Animation"
+                        },
+                        {
+                            "name": "Core Image"
+                        },
+                        {
+                            "name": "Game Controller"
+                        },
+                        {
+                            "name": "GameKit"
+                        },
+                        {
+                            "name": "GameplayKit"
+                        },
+                        {
+                            "name": "GLKit"
+                        },
+                        {
+                            "name": "Image I/O"
+                        },
+                        {
+                            "name": "Metal Performance Shaders"
+                        },
+                        {
+                            "name": "MetalKit"
+                        },
+                        {
+                            "name": "Model I/O"
+                        },
+                        {
+                            "name": "OpenGL ES"
+                        },
+                        {
+                            "name": "PDFKit"
+                        },
+                        {
+                            "name": "Quartz"
+                        },
+                        {
+                            "name": "ReplayKit"
+                        },
+                        {
+                            "name": "SceneKit"
+                        },
+                        {
+                            "name": "Vision"
+                        }
+                    ]
+                },
+                {
+                    "name": "App Services",
+                    "items": [
+                        {
+                            "name": "MapKit",
+                            "level": 1
+                        },
+                        {
+                            "name": "Core Data",
+                            "level": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cocoapods",
+            "items": [
+                {
+                    "name": "Databases",
+                    "items": [
+                        {
+                            "name": "Alamofire",
+                            "level": 1
+                        },
+                        {
+                            "name": "Firebase",
+                            "level": 1
+                        },
+                        {
+                            "name": "Realm"
+                        }
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "name": "Server Side",
+            "items": [
+                {
+                    "name": "Vapor",
+                    "level": 1
+                },
+                {
+                    "name": "Kitura"
+                }
+            ]
+        }
+    ]
+}

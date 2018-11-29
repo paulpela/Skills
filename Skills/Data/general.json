@@ -1,0 +1,69 @@
+{
+    "name": "General",
+    "items": [
+        {
+            "name": "Design Patterns",
+            "level": 3
+        },
+        {
+            "name": "Algorithms",
+            "level": 3
+        },
+        {
+            "name": "Functional Programming",
+            "level": 3
+        },
+        {
+            "name": "Development Principles",
+            "items": [
+                {
+                    "name": "TDD",
+                    "level": 3
+                },
+                {
+                    "name": "Clean Code",
+                    "level": 5
+                },
+                {
+                    "name": "DRY",
+                    "level": 5
+                },
+                {
+                    "name": "Refactoring",
+                    "level": 5
+                }
+            ]
+        },
+        {
+            "name": "Stack Overflow",
+            "level": 5
+        },
+        {
+            "name": "Unix",
+            "items": [
+                {
+                    "name": "Command Line",
+                    "level": 5
+                },
+                {
+                    "name": "Editors",
+                    "level": 5
+                },
+                {
+                    "name": "Operating Systems",
+                    "items": [
+                        {
+                            "name": "macOS",
+                            "level": 4
+                        },
+                        {
+                            "name": "Linux",
+                            "level": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+    
+}

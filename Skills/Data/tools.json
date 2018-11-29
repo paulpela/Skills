@@ -1,0 +1,193 @@
+{
+    "name": "Tools",
+    "items": [
+        {
+            "name": "Xcode",
+            "items": [
+                {
+                    "name": "Xcode basics",
+                    "items": [
+                        {
+                            "name": "Build and run your app",
+                            "level": 4
+                        },
+                        {
+                            "name": "Test, profile, and analyze your app",
+                            "level": 2
+                        },
+                        {
+                            "name": "Configure the main window",
+                            "level": 2
+                        },
+                        {
+                            "name": "Manage files and navigate symbols",
+                            "level": 3
+                        },
+                        {
+                            "name": "Choose where to display a file",
+                            "level": 2
+                        },
+                        {
+                            "name": "Search for developer documentation",
+                            "level": 2
+                        },
+                        {
+                            "name": "Rename a project or an app",
+                            "level": 2
+                        },
+                        {
+                            "name": "Edit property lists",
+                            "level": 3
+                        },
+                        {
+                            "name": "Migrate to Swift 4 @objc inference"
+                        }
+                    ]
+                },
+                {
+                    "name": "Customize Xcode",
+                    "items": [
+                        {
+                            "name": "Manage general environment settings",
+                            "level": 2
+                        },
+                        {
+                            "name": "About Accounts preferences",
+                            "level": 2
+                        },
+                        {
+                            "name": "Add your Apple ID account",
+                            "level": 2
+                        },
+                        {
+                            "name": "Configure actions for events",
+                            "level": 3
+                        },
+                        {
+                            "name": "Configure how files are opened and displayed",
+                            "level": 2
+                        },
+                        {
+                            "name": "Manage fonts and colors",
+                            "level": 2
+                        },
+                        {
+                            "name": "Set code editing and indentation preferences",
+                            "level": 2
+                        },
+                        {
+                            "name": "Adjust keyboard shortcut mappings",
+                            "level": 2
+                        },
+                        {
+                            "name": "Customize the Touch Bar controls"
+                        },
+                        {
+                            "name": "Configure source control management",
+                            "level": 3
+                        },
+                        {
+                            "name": "Customize text macros",
+                            "level": 1
+                        },
+                        {
+                            "name": "Customize the header used for new files",
+                            "level": 2
+                        },
+                        {
+                            "name": "Manage simulators and toolchains",
+                            "level": 2
+                        },
+                        {
+                            "name": "Manage the locations of project-generated files",
+                            "level": 1
+                        },
+                        {
+                            "name": "Choose the build system",
+                            "level": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Create playgrounds",
+                    "level": 3
+                },
+                {
+                    "name": "Run your app on a device",
+                    "level": 3
+                },
+                {
+                    "name": "Edit source code",
+                    "level": 3
+                },
+                {
+                    "name": "Lay out user interfaces",
+                    "level": 3
+                },
+                {
+                    "name": "Work with assets",
+                    "level": 3
+                },
+                {
+                    "name": "Debug your app",
+                    "level": 3
+                },
+                {
+                    "name": "Test code",
+                    "level": 2
+                },
+                {
+                    "name": "Configure targets and builds",
+                    "level": 1
+                },
+                {
+                    "name": "Configure capabilities",
+                    "level": 2
+                },
+                {
+                    "name": "Manage devices",
+                    "level": 2
+                },
+                {
+                    "name": "Maintain signing assets",
+                    "level": 1
+                },
+                {
+                    "name": "Manage source control",
+                    "level": 3
+                },
+                {
+                    "name": "Archive, distribute, and test",
+                    "level": 1
+                },
+                {
+                    "name": "Submit apps to the App Store",
+                    "level": 1
+                },
+                {
+                    "name": "View crash and energy reports",
+                    "level": 1
+                },
+                {
+                    "name": "Perform continuous integration"
+                },
+                {
+                    "name": "Troubleshoot build failures",
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "name": "Instruments",
+            "level": 2
+        },
+        {
+            "name": "Git",
+            "level": 4
+        },
+        {
+            "name": "Rubber Duck",
+            "level": 4
+        }
+    ]
+}
