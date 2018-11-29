@@ -1031,6 +1031,7 @@
         },
         {
             "name": "Server Side",
+            "optional": true,
             "items": [
                 {
                     "name": "Vapor",

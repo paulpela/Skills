@@ -401,6 +401,7 @@
         },
         {
             "name": "Objective-C",
+            "optional": true,
             "items": [
                 {
                     "name": "Program Structure",
@@ -545,14 +546,17 @@
                 },
                 {
                     "name": "XML",
+                    "optional": true,
                     "level": 5
                 },
                 {
                     "name": "YAML",
+                    "optional": true,
                     "level": 3
                 },
                 {
                     "name": "Markdown",
+                    "optional": true,
                     "level": 4
                 }
             ]

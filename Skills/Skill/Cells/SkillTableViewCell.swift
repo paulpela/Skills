@@ -14,12 +14,16 @@ class SkillTableViewCell: UITableViewCell {
     @IBOutlet weak var skillNameLabel: UILabel!
     @IBOutlet weak var skillLevelBackground: UIView!
     @IBOutlet weak var skillLevelNameLabel: UILabel!
+    @IBOutlet weak var optionalIndicator: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
         skillLevelBackground.layer.cornerRadius = 4
         skillLevelBackground.layer.masksToBounds = true
+        
+        optionalIndicator.layer.cornerRadius = 4
+        optionalIndicator.layer.masksToBounds = true
     }
 
     private func setup() {
@@ -33,6 +37,12 @@ class SkillTableViewCell: UITableViewCell {
                 accessoryType = .disclosureIndicator
             } else {
                 accessoryType = .none
+            }
+            
+            if let optional = skill.optional, optional == true {
+                optionalIndicator.isHidden = false
+            } else {
+                optionalIndicator.isHidden = true
             }
         }
     }

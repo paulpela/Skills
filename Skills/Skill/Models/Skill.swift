@@ -11,11 +11,13 @@ import UIKit
 class Skill: Codable {
     enum CodingKeys : String, CodingKey {
         case name
+        case optional
         case _level = "level"
         case items
     }
     
     private(set) var name: String
+    private(set) var optional: Bool?
     private(set) var items: [Skill]?
     
     private var _level: Level?
@@ -23,18 +25,22 @@ class Skill: Codable {
     var level: Level? {
         get {
             if items != nil {
-                let sum = items?.reduce(0.0, { (result, skill) -> Double in
-                    result + Double(skill.level?.rawValue ?? 0)
+                let average = items?.reduce(0.0, { (result, skill) -> Double in
+                    if skill.level == nil { return result }
+                    
+                    let normalResult = (result + Double(skill.level?.rawValue ?? 0)) / 2.0
+                    
+                    if let optional = skill.optional, optional == true {
+                        return result >= normalResult ? result : normalResult
+                    } else {
+                        return normalResult
+                    }
                 })
                 
-                let count = Double(items?.filter({ (skill) -> Bool in
-                    skill.level != nil
-                }).count ?? 0)
-                
-                if count == 0.0 {
-                    return _level
+                if let average = average {
+                    return Level(rawValue: Int(average.rounded()))
                 } else {
-                    return Level(rawValue: Int(((sum ?? 0) / count).rounded()))
+                    return Level.noSkill
                 }
             } else {
                 return _level

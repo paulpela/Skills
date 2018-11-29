@@ -27,7 +27,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jxz-gm-pMp">
-                                            <rect key="frame" x="16" y="10" width="305" height="24"/>
+                                            <rect key="frame" x="16" y="10" width="325" height="24"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X6V-K9-1Li">
                                                     <rect key="frame" x="0.0" y="0.0" width="90" height="24"/>
@@ -47,22 +47,41 @@
                                                         <constraint firstAttribute="height" constant="24" id="wuZ-i0-lrD"/>
                                                     </constraints>
                                                 </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fd-vs-nP3">
-                                                    <rect key="frame" x="98" y="0.0" width="207" height="24"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fd-vs-nP3">
+                                                    <rect key="frame" x="98" y="0.0" width="169" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWM-LS-UiQ">
+                                                    <rect key="frame" x="275" y="0.0" width="50" height="24"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="optional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uON-iS-PPf">
+                                                            <rect key="frame" x="7" y="6" width="36" height="12"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="uON-iS-PPf" firstAttribute="centerX" secondItem="RWM-LS-UiQ" secondAttribute="centerX" id="1gH-ND-Zrc"/>
+                                                        <constraint firstAttribute="height" constant="24" id="W3s-Oa-eOn"/>
+                                                        <constraint firstItem="uON-iS-PPf" firstAttribute="centerY" secondItem="RWM-LS-UiQ" secondAttribute="centerY" id="cf6-gv-vOB"/>
+                                                        <constraint firstAttribute="width" constant="50" id="yYt-q3-s4A"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="jxz-gm-pMp" secondAttribute="trailing" constant="20" symbolic="YES" id="NKa-am-Laq"/>
+                                        <constraint firstAttribute="trailing" secondItem="jxz-gm-pMp" secondAttribute="trailing" id="NKa-am-Laq"/>
                                         <constraint firstItem="jxz-gm-pMp" firstAttribute="leading" secondItem="XRo-72-9nI" secondAttribute="leading" constant="16" id="nDe-Mh-Ibb"/>
                                         <constraint firstItem="jxz-gm-pMp" firstAttribute="centerY" secondItem="XRo-72-9nI" secondAttribute="centerY" id="xys-me-LUb"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="optionalIndicator" destination="RWM-LS-UiQ" id="53N-Br-i01"/>
                                     <outlet property="skillLevelBackground" destination="X6V-K9-1Li" id="Ip0-4z-szc"/>
                                     <outlet property="skillLevelNameLabel" destination="sGH-DA-v6L" id="zgG-d4-Gyv"/>
                                     <outlet property="skillNameLabel" destination="6fd-vs-nP3" id="mxY-qD-K4S"/>
