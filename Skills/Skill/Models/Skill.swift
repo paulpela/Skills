@@ -25,20 +25,28 @@ class Skill: Codable {
     var level: Level? {
         get {
             if items != nil {
-                let average = items?.reduce(0.0, { (result, skill) -> Double in
-                    if skill.level == nil { return result }
-                    
-                    let normalResult = (result + Double(skill.level?.rawValue ?? 0)) / 2.0
-                    
-                    if let optional = skill.optional, optional == true {
-                        return result >= normalResult ? result : normalResult
-                    } else {
-                        return normalResult
-                    }
+                var countWithOptionals = 0
+                let sumWithOptionals = items?.reduce(0.0, { (result, skill) -> Double in
+                    guard let level = skill.level?.rawValue else { return result }
+                    countWithOptionals += 1
+                    return result + Double(level)
                 })
                 
-                if let average = average {
-                    return Level(rawValue: Int(average.rounded()))
+                var countWithoutOptionals = 0
+                let sumWithoutOptionals = items?.reduce(0.0, { (result, skill) -> Double in
+                    guard let optional = skill.optional, optional != true else { return result }
+                    guard let level = skill.level?.rawValue else { return result }
+                    
+                    countWithoutOptionals += 1
+                    return result + Double(level)
+                })
+                
+                if let sumWithOptionals = sumWithOptionals, let sumWithoutOptionals = sumWithoutOptionals {
+                    let averageWithOptionals = countWithOptionals > 0 ? sumWithOptionals / Double(countWithOptionals) : 0.0
+                    let averageWithoutOptionals = countWithoutOptionals > 0 ? sumWithoutOptionals / Double(countWithoutOptionals) : 0.0
+                    
+                    let avgLevel = Int(max(averageWithOptionals, averageWithoutOptionals).rounded())
+                    return Level(rawValue: avgLevel)
                 } else {
                     return Level.noSkill
                 }
