@@ -1080,8 +1080,25 @@
                 "level": 3
             },
             {
-                "name": "TDD",
-                "level": 3
+                "name": "Development Principles",
+                "items": [
+                    {
+                        "name": "TDD",
+                        "level": 3
+                    },
+                    {
+                        "name": "Clean Code",
+                        "level": 5
+                    },
+                    {
+                        "name": "DRY",
+                        "level": 5
+                    },
+                    {
+                        "name": "Refactoring",
+                        "level": 5
+                    }
+                ]
             },
             {
                 "name": "Stack Overflow",
