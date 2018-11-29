@@ -144,7 +144,7 @@
                             },
                             {
                                 "name": "Subscript Usage",
-                                "level": 3
+                                "level": 5
                             },
                             {
                                 "name": "Subscript Options",
@@ -227,11 +227,57 @@
                         "items": [
                             {
                                 "name": "Foundation",
-                                "level": 3
+                                "items": [
+                                    {
+                                        "name": "Fundamentals",
+                                        "level": 2
+                                    },
+                                    {
+                                        "name": "App Support",
+                                        "level": 1
+                                    },
+                                    {
+                                        "name": "Files and Data Persistence",
+                                        "level": 1
+                                    },
+                                    {
+                                        "name": "Networking"
+                                    },
+                                    {
+                                        "name": "Low-Level Utilities"
+                                    },
+                                    {
+                                        "name": "Property List Keys"
+                                    }
+                                ]
                             },
                             {
                                 "name": "UIKit",
-                                "level": 3
+                                "items": [
+                                    {
+                                        "name": "App Structure",
+                                        "level": 1
+                                    },
+                                    {
+                                        "name": "User Interface",
+                                        "level": 2
+                                    },
+                                    {
+                                        "name": "User Interactions",
+                                        "level": 1
+                                    },
+                                    {
+                                        "name": "Graphics, Drawing, and Printing",
+                                        "level": 1
+                                    },
+                                    {
+                                        "name": "Text",
+                                        "level": 1
+                                    },
+                                    {
+                                        "name": "Property List Keys"
+                                    }
+                                ]
                             },
                             {
                                 "name": "AppKit",

@@ -31,8 +31,10 @@ class SkillTableViewCell: UITableViewCell {
             
             if skill.items != nil {
                 accessoryType = .disclosureIndicator
+                isUserInteractionEnabled = true
             } else {
                 accessoryType = .none
+                isUserInteractionEnabled = false
             }
         }
     }
