@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Languages",
+        "items": [
+            {
+                "name": "Swift",
+                "items": [
+                    {
+                        "name": "Test",
+                        "level": 3
+                    },
+                    {
+                        "name": "Test 2",
+                        "level": 6
+                    }
+                ]
+            },
+            {
+                "name": "Objective-C"
+            }
+        ]
+    },
+    {
+        "name": "Frameworks"
+    },
+    {
+        "name": "Cocoapods",
+        "items": [
+            {
+                "name": "Alamofire",
+                "level": 1
+            },
+            {
+                "name": "Firebase",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "name": "Tools"
+    }
+]

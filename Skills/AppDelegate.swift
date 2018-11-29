@@ -13,10 +13,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    private var skills: [Skill]?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        do {
+            let data = try Data(contentsOf: Bundle.main.url(forResource: "data", withExtension: "json")!)
+            
+            skills = try JSONDecoder().decode([Skill].self, from: data)
+            
+            let tabVC = window?.rootViewController as! UITabBarController
+            
+            if let skills = skills {
+                for tab in skills {
+                    addNewTab(skill: tab)
+                }
+                
+                tabVC.selectedIndex = 0
+            }
+        } catch let error {
+            fatalError("Error: \(error)")
+        }
+        
         return true
+    }
+    
+    private func addNewTab(skill: Skill) {
+        let newVC = UIStoryboard.init(name: "Skill", bundle: nil).instantiateInitialViewController() as! SkillTableViewController
+        
+        newVC.title = skill.name
+        newVC.skills = skill.items
+        
+        let newNavVC = UINavigationController(rootViewController: newVC)
+        
+        newNavVC.tabBarItem.title = skill.name
+        newNavVC.tabBarItem.image = UIImage(named: "second")
+        
+        window?.rootViewController?.addChild(newNavVC)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

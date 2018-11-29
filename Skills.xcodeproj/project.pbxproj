@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		E5E7F6BC21AF62790077CD15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6BB21AF62790077CD15 /* AppDelegate.swift */; };
-		E5E7F6BE21AF62790077CD15 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6BD21AF62790077CD15 /* FirstViewController.swift */; };
-		E5E7F6C021AF62790077CD15 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6BF21AF62790077CD15 /* SecondViewController.swift */; };
 		E5E7F6C321AF62790077CD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6C121AF62790077CD15 /* Main.storyboard */; };
 		E5E7F6C521AF627B0077CD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6C421AF627B0077CD15 /* Assets.xcassets */; };
 		E5E7F6C821AF627B0077CD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6C621AF627B0077CD15 /* LaunchScreen.storyboard */; };
+		E5E7F6D121AF62B00077CD15 /* Skill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6D021AF62B00077CD15 /* Skill.storyboard */; };
+		E5E7F6D321AF66890077CD15 /* SkillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */; };
+		E5E7F6D521AF67B20077CD15 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E7F6D421AF67B20077CD15 /* data.json */; };
+		E5E7F6D721AF68020077CD15 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D621AF68020077CD15 /* Skill.swift */; };
+		E5E7F6D921AF6E180077CD15 /* SkillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5E7F6B821AF62790077CD15 /* Skills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E7F6BB21AF62790077CD15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5E7F6BD21AF62790077CD15 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E5E7F6BF21AF62790077CD15 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E5E7F6C221AF62790077CD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5E7F6C421AF627B0077CD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E7F6C721AF627B0077CD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E7F6C921AF627B0077CD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E7F6D021AF62B00077CD15 /* Skill.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Skill.storyboard; sourceTree = "<group>"; };
+		E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewController.swift; sourceTree = "<group>"; };
+		E5E7F6D421AF67B20077CD15 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E5E7F6D621AF68020077CD15 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		E5E7F6BA21AF62790077CD15 /* Skills */ = {
 			isa = PBXGroup;
 			children = (
+				E5E7F6CF21AF62A20077CD15 /* Skill */,
 				E5E7F6BB21AF62790077CD15 /* AppDelegate.swift */,
-				E5E7F6BD21AF62790077CD15 /* FirstViewController.swift */,
-				E5E7F6BF21AF62790077CD15 /* SecondViewController.swift */,
 				E5E7F6C121AF62790077CD15 /* Main.storyboard */,
 				E5E7F6C421AF627B0077CD15 /* Assets.xcassets */,
 				E5E7F6C621AF627B0077CD15 /* LaunchScreen.storyboard */,
 				E5E7F6C921AF627B0077CD15 /* Info.plist */,
+				E5E7F6D421AF67B20077CD15 /* data.json */,
 			);
 			path = Skills;
+			sourceTree = "<group>";
+		};
+		E5E7F6CF21AF62A20077CD15 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7F6D021AF62B00077CD15 /* Skill.storyboard */,
+				E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */,
+				E5E7F6D621AF68020077CD15 /* Skill.swift */,
+				E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */,
+			);
+			path = Skill;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,8 @@
 			files = (
 				E5E7F6C821AF627B0077CD15 /* LaunchScreen.storyboard in Resources */,
 				E5E7F6C521AF627B0077CD15 /* Assets.xcassets in Resources */,
+				E5E7F6D121AF62B00077CD15 /* Skill.storyboard in Resources */,
+				E5E7F6D521AF67B20077CD15 /* data.json in Resources */,
 				E5E7F6C321AF62790077CD15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E7F6C021AF62790077CD15 /* SecondViewController.swift in Sources */,
+				E5E7F6D721AF68020077CD15 /* Skill.swift in Sources */,
+				E5E7F6D921AF6E180077CD15 /* SkillTableViewCell.swift in Sources */,
 				E5E7F6BC21AF62790077CD15 /* AppDelegate.swift in Sources */,
-				E5E7F6BE21AF62790077CD15 /* FirstViewController.swift in Sources */,
+				E5E7F6D321AF66890077CD15 /* SkillTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
