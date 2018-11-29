@@ -1349,6 +1349,63 @@
                             },
                             {
                                 "name": "Metal"
+                            },
+                            {
+                                "name": "AGL"
+                            },
+                            {
+                                "name": "ARKit"
+                            },
+                            {
+                                "name": "ColorSync"
+                            },
+                            {
+                                "name": "Core Animation"
+                            },
+                            {
+                                "name": "Core Image"
+                            },
+                            {
+                                "name": "Game Controller"
+                            },
+                            {
+                                "name": "GameKit"
+                            },
+                            {
+                                "name": "GameplayKit"
+                            },
+                            {
+                                "name": "GLKit"
+                            },
+                            {
+                                "name": "Image I/O"
+                            },
+                            {
+                                "name": "Metal Performance Shaders"
+                            },
+                            {
+                                "name": "MetalKit"
+                            },
+                            {
+                                "name": "Model I/O"
+                            },
+                            {
+                                "name": "OpenGL ES"
+                            },
+                            {
+                                "name": "PDFKit"
+                            },
+                            {
+                                "name": "Quartz"
+                            },
+                            {
+                                "name": "ReplayKit"
+                            },
+                            {
+                                "name": "SceneKit"
+                            },
+                            {
+                                "name": "Vision"
                             }
                         ]
                     },
