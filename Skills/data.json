@@ -265,7 +265,140 @@
             },
             {
                 "name": "Objective-C",
-                "level": 3
+                "items": [
+                    {
+                        "name": "Program Structure",
+                        "level": 2
+                    },
+                    {
+                        "name": "Basic Syntax",
+                        "level": 2
+                    },
+                    {
+                        "name": "Data Types",
+                        "level": 2
+                    },
+                    {
+                        "name": "Variables",
+                        "level": 3
+                    },
+                    {
+                        "name": "Constants",
+                        "level": 2
+                    },
+                    {
+                        "name": "Operators",
+                        "level": 5
+                    },
+                    {
+                        "name": "Loops",
+                        "level": 4
+                    },
+                    {
+                        "name": "Decision Making",
+                        "level": 5
+                    },
+                    {
+                        "name": "Functions",
+                        "level": 2
+                    },
+                    {
+                        "name": "Blocks",
+                        "level": 1
+                    },
+                    {
+                        "name": "Numbers",
+                        "level": 2
+                    },
+                    {
+                        "name": "Arrays",
+                        "level": 3
+                    },
+                    {
+                        "name": "Pointers",
+                        "level": 4
+                    },
+                    {
+                        "name": "Strings",
+                        "level": 2
+                    },
+                    {
+                        "name": "Structures",
+                        "level": 4
+                    },
+                    {
+                        "name": "Preprocessors",
+                        "level": 4
+                    },
+                    {
+                        "name": "Typedef",
+                        "level": 3
+                    },
+                    {
+                        "name": "Type Casting",
+                        "level": 3
+                    },
+                    {
+                        "name": "Log Handling",
+                        "level": 2
+                    },
+                    {
+                        "name": "Error Handling",
+                        "level": 1
+                    },
+                    {
+                        "name": "Command-Line Arguments",
+                        "level": 3
+                    },
+                    {
+                        "name": "Classes & Objects",
+                        "level": 2
+                    },
+                    {
+                        "name": "Inheritance",
+                        "level": 2
+                    },
+                    {
+                        "name": "Polymorphism",
+                        "level": 2
+                    },
+                    {
+                        "name": "Data Encapsulation",
+                        "level": 1
+                    },
+                    {
+                        "name": "Categories",
+                        "level": 1
+                    },
+                    {
+                        "name": "Extensions",
+                        "level": 1
+                    },
+                    {
+                        "name": "Protocols",
+                        "level": 1
+                    },
+                    {
+                        "name": "Dynamic Binding",
+                        "level": 1
+                    },
+                    {
+                        "name": "Composite Objects",
+                        "level": 1
+                    },
+                    {
+                        "name": "Foundation Framework",
+                        "level": 1
+                    },
+                    {
+                        "name": "Fast Enumeration",
+                        "level": 1
+                    },
+                    {
+                        "name": "Memory Management",
+                        "level": 2
+                    }
+                ]
             }
         ]
     },
@@ -283,7 +416,61 @@
                                 "items": [
                                     {
                                         "name": "Fundamentals",
-                                        "level": 2
+                                        "items": [
+                                            {
+                                                "name": "Numbers, Data, and Basic Values",
+                                                "items": [
+                                                    {
+                                                        "name": "Numbers",
+                                                        "level": 3
+                                                    },
+                                                    {
+                                                        "name": "Binary Data",
+                                                        "level": 2
+                                                    },
+                                                    {
+                                                        "name": "URLs",
+                                                        "level": 2
+                                                    },
+                                                    {
+                                                        "name": "Unique Identifiers",
+                                                        "level": 1
+                                                    },
+                                                    {
+                                                        "name": "Geometry",
+                                                        "level": 3
+                                                    },
+                                                    {
+                                                        "name": "Ranges",
+                                                        "level": 2
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Strings and Text",
+                                                "level": 2
+                                            },
+                                            {
+                                                "name": "Collections",
+                                                "level": 2
+                                            },
+                                            {
+                                                "name": "Dates and Times",
+                                                "level": 2
+                                            },
+                                            {
+                                                "name": "Units and Measurement",
+                                                "level": 1
+                                            },
+                                            {
+                                                "name": "Data Formatting",
+                                                "level": 2
+                                            },
+                                            {
+                                                "name": "Filters and Sorting",
+                                                "level": 1
+                                            }
+                                        ]
                                     },
                                     {
                                         "name": "App Support",
