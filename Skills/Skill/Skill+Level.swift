@@ -53,5 +53,21 @@ extension Skill {
             case .legendary: return (fg: .white, bg: #colorLiteral(red: 0.1019607857, green: 0.2784313858, blue: 0.400000006, alpha: 1))
             }
         }
+        
+        var description: String {
+            switch self {
+            case .noSkill: return "You have no skill in this domain."
+            case .novice: return "You have started acquiring basic knowledge in this domain."
+            case .beginner: return "You have acquired some basic knowledge in this domain."
+            case .competent: return "You are beginning to play with your knowledge in this domain."
+            case .skilled: return "You have played with your knowledge in this domain for some time."
+            case .proficient: return "You have created basic products based on the knowledge of this domain."
+            case .adept: return "You have created more advanced products based on the knowledge of this domain."
+            case .expert: return "You are beginning to use the knowledge from this domain to creatively resolve problems."
+            case .accomplished: return "You are regularly using the knowledge from this domain to creatively resolve problems."
+            case .master: return "You have invented solutions in this domain."
+            case .legendary: return "You have invented solutions in this domain and are known for this."
+            }
+        }
     }
 }
