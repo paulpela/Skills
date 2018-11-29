@@ -101,7 +101,60 @@
                     },
                     {
                         "name": "Strings and Characters",
-                        "level": 3
+                        "items": [
+                            {
+                                "name": "String Literals",
+                                "level": 4
+                            },
+                            {
+                                "name": "Initializing an Empty String",
+                                "level": 5
+                            },
+                            {
+                                "name": "String Mutability",
+                                "level": 5
+                            },
+                            {
+                                "name": "Strings Are Value Types",
+                                "level": 4
+                            },
+                            {
+                                "name": "Working with Characters",
+                                "level": 2
+                            },
+                            {
+                                "name": "Concatenating Strings and Characters",
+                                "level": 3
+                            },
+                            {
+                                "name": "String Interpolation",
+                                "level": 4
+                            },
+                            {
+                                "name": "Unicode",
+                                "level": 3
+                            },
+                            {
+                                "name": "Counting Characters",
+                                "level": 2
+                            },
+                            {
+                                "name": "Accessing and Modifying a String",
+                                "level": 2
+                            },
+                            {
+                                "name": "Substrings",
+                                "level": 2
+                            },
+                            {
+                                "name": "Comparing Strings",
+                                "level": 2
+                            },
+                            {
+                                "name": "Unicode Representations of Strings",
+                                "level": 1
+                            }
+                        ]
                     },
                     {
                         "name": "Collection Types",
@@ -348,7 +401,16 @@
     },
     {
         "name": "Design",
-        
+        "items": [
+            {
+                "name": "Interface Builder",
+                "level": 3
+            },
+            {
+                "name": "Sketch",
+                "level": 1
+            }
+        ]
     },
     {
         "name": "Tools",
@@ -358,20 +420,12 @@
                 "level": 3
             },
             {
-                "name": "Interface Builder",
-                "level": 3
-            },
-            {
                 "name": "Instruments",
                 "level": 2
             },
             {
                 "name": "Git",
                 "level": 4
-            },
-            {
-                "name": "Sketch",
-                "level": 1
             }
         ]
     },
@@ -388,7 +442,7 @@
             },
             {
                 "name": "TDD",
-                "level": 2
+                "level": 3
             }
         ]
         
