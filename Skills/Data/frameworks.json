@@ -18,15 +18,131 @@
                                             "items": [
                                                 {
                                                     "name": "Numbers",
-                                                    "level": 3
+                                                    "items": [
+                                                        {
+                                                            "name": "Int",
+                                                            "level": 4
+                                                        },
+                                                        {
+                                                            "name": "Double",
+                                                            "level": 4
+                                                        },
+                                                        {
+                                                            "name": "Decimal",
+                                                            "level": 2
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Binary Data",
-                                                    "level": 2
+                                                    "items": [
+                                                        {
+                                                            "name": "Creating Empty Data",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Creating Populated Data",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Creating Data from Raw Memory"
+                                                        },
+                                                        {
+                                                            "name": "Reading and Writing Data",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "Base-64 Encoding"
+                                                        },
+                                                        {
+                                                            "name": "Counting Bytes",
+                                                            "level": 3
+                                                        },
+                                                        {
+                                                            "name": "Accessing Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Accessing Underlying Memory"
+                                                        },
+                                                        {
+                                                            "name": "Adding Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Removing Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Replacing a Range of Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Finding Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Selecting Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Excluding Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Transforming Data"
+                                                        },
+                                                        {
+                                                            "name": "Iterating Over Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Sorting Bytes"
+                                                        },
+                                                        {
+                                                            "name": "Splitting the Buffer"
+                                                        },
+                                                        {
+                                                            "name": "Comparing Data"
+                                                        },
+                                                        {
+                                                            "name": "Manipulating Indexes"
+                                                        },
+                                                        {
+                                                            "name": "Manipulating Index Ranges"
+                                                        },
+                                                        {
+                                                            "name": "Describing Data",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Using Reference Types"
+                                                        },
+                                                        {
+                                                            "name": "Initializers"
+                                                        },
+                                                        {
+                                                            "name": "Instance Properties"
+                                                        },
+                                                        {
+                                                            "name": "Instance Methods"
+                                                        },
+                                                        {
+                                                            "name": "Subscripts"
+                                                        },
+                                                        {
+                                                            "name": "Operator Functions"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "URLs",
-                                                    "level": 2
+                                                    "items": [
+                                                        {
+                                                            "name": "struct URL",
+                                                            "level": 3
+                                                        },
+                                                        {
+                                                            "name": "struct URLComponents",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "struct URLQueryItem",
+                                                            "level": 1
+                                                        },
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Unique Identifiers",
@@ -901,8 +1017,16 @@
                             "name": "Realm"
                         }
                     ]
+                },
+                {
+                    "name": "Markup Languages",
+                    "items": [
+                        {
+                            "name": "Yams",
+                            "level": 1
+                        }
+                    ]
                 }
-                
             ]
         },
         {

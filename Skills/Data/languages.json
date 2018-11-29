@@ -535,6 +535,27 @@
                     "level": 2
                 }
             ]
+        },
+        {
+            "name": "Markup Languages",
+            "items": [
+                {
+                    "name": "JSON",
+                    "level": 5
+                },
+                {
+                    "name": "XML",
+                    "level": 5
+                },
+                {
+                    "name": "YAML",
+                    "level": 3
+                },
+                {
+                    "name": "Markdown",
+                    "level": 4
+                }
+            ]
         }
     ]
 }

@@ -178,16 +178,27 @@
             ]
         },
         {
-            "name": "Instruments",
-            "level": 2
+            "name": "Debugging Tools",
+            "items": [
+                {
+                    "name": "Instruments",
+                    "level": 2
+                },
+                {
+                    "name": "Rubber Duck",
+                    "level": 4
+                }
+            ]
         },
         {
-            "name": "Git",
-            "level": 4
-        },
-        {
-            "name": "Rubber Duck",
-            "level": 4
+            "name": "Version Control",
+            "items": [
+                {
+                    "name": "Git",
+                    "level": 5
+                }
+            ]
         }
+        
     ]
 }
