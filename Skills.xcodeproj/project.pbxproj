@@ -66,13 +66,9 @@
 		E5E7F6BA21AF62790077CD15 /* Skills */ = {
 			isa = PBXGroup;
 			children = (
+				E5E7F6F921B06C390077CD15 /* Data */,
 				E5E7F6CF21AF62A20077CD15 /* Skill */,
-				E5E7F6BB21AF62790077CD15 /* AppDelegate.swift */,
-				E5E7F6C121AF62790077CD15 /* Main.storyboard */,
-				E5E7F6C421AF627B0077CD15 /* Assets.xcassets */,
-				E5E7F6C621AF627B0077CD15 /* LaunchScreen.storyboard */,
-				E5E7F6C921AF627B0077CD15 /* Info.plist */,
-				E5E7F6D421AF67B20077CD15 /* data.json */,
+				E5E7F6FD21B06D3F0077CD15 /* Supporting Files */,
 			);
 			path = Skills;
 			sourceTree = "<group>";
@@ -80,13 +76,57 @@
 		E5E7F6CF21AF62A20077CD15 /* Skill */ = {
 			isa = PBXGroup;
 			children = (
+				E5E7F6FC21B06D2B0077CD15 /* Models */,
+				E5E7F6FB21B06D200077CD15 /* Cells */,
+				E5E7F6FA21B06D110077CD15 /* View Controllers */,
 				E5E7F6D021AF62B00077CD15 /* Skill.storyboard */,
-				E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */,
-				E5E7F6D621AF68020077CD15 /* Skill.swift */,
-				E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */,
-				E5E7F6DA21AF9BAD0077CD15 /* Skill+Level.swift */,
 			);
 			path = Skill;
+			sourceTree = "<group>";
+		};
+		E5E7F6F921B06C390077CD15 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7F6D421AF67B20077CD15 /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E5E7F6FA21B06D110077CD15 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7F6D221AF66890077CD15 /* SkillTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E5E7F6FB21B06D200077CD15 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7F6D821AF6E180077CD15 /* SkillTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E5E7F6FC21B06D2B0077CD15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7F6D621AF68020077CD15 /* Skill.swift */,
+				E5E7F6DA21AF9BAD0077CD15 /* Skill+Level.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5E7F6FD21B06D3F0077CD15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7F6C421AF627B0077CD15 /* Assets.xcassets */,
+				E5E7F6BB21AF62790077CD15 /* AppDelegate.swift */,
+				E5E7F6C121AF62790077CD15 /* Main.storyboard */,
+				E5E7F6C621AF627B0077CD15 /* LaunchScreen.storyboard */,
+				E5E7F6C921AF627B0077CD15 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
