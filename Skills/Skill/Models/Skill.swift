@@ -34,7 +34,7 @@ class Skill: Codable {
                 
                 var countWithoutOptionals = 0
                 let sumWithoutOptionals = items?.reduce(0.0, { (result, skill) -> Double in
-                    guard let optional = skill.optional, optional != true else { return result }
+                    if let optional = skill.optional, optional == true { return result }
                     guard let level = skill.level?.rawValue else { return result }
                     
                     countWithoutOptionals += 1
@@ -45,7 +45,13 @@ class Skill: Codable {
                     let averageWithOptionals = countWithOptionals > 0 ? sumWithOptionals / Double(countWithOptionals) : 0.0
                     let averageWithoutOptionals = countWithoutOptionals > 0 ? sumWithoutOptionals / Double(countWithoutOptionals) : 0.0
                     
+                    
                     let avgLevel = Int(max(averageWithOptionals, averageWithoutOptionals).rounded())
+                    print(
+                        (averageWithOptionals == averageWithoutOptionals ? "=" : " ")
+                        +
+                        " > with: \(averageWithOptionals), without: \(averageWithoutOptionals), returning level: \(avgLevel)"
+                    )
                     return Level(rawValue: avgLevel)
                 } else {
                     return Level.noSkill
