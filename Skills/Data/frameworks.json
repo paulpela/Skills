@@ -173,7 +173,36 @@
                                         },
                                         {
                                             "name": "Units and Measurement",
-                                            "level": 1
+                                            "optional": true,
+                                            "items": [
+                                                {
+                                                    "name": "First Steps"
+                                                },
+                                                {
+                                                    "name": "Conversion"
+                                                },
+                                                {
+                                                    "name": "Physical Dimension"
+                                                },
+                                                {
+                                                    "name": "Mass, Weight, and Force"
+                                                },
+                                                {
+                                                    "name": "Time and Motion"
+                                                },
+                                                {
+                                                    "name": "Energy, Heat, and Light"
+                                                },
+                                                {
+                                                    "name": "Electricity"
+                                                },
+                                                {
+                                                    "name": "Concentration and Dispersion"
+                                                },
+                                                {
+                                                    "name": "Fuel Efficiency"
+                                                }
+                                            ]
                                         },
                                         {
                                             "name": "Data Formatting",
