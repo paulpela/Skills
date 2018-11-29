@@ -157,7 +157,107 @@
                 },
                 {
                     "name": "Collection Types",
-                    "level": 3
+                    "items": [
+                        {
+                            "name": "Mutability of Collections",
+                            "level": 4
+                        },
+                        {
+                            "name": "Arrays",
+                            "items": [
+                                {
+                                    "name": "Array Type Shorthand Syntax",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Creating an Empty Array",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Creating an Array with a Default Value",
+                                    "level": 4
+                                },
+                                {
+                                    "name": "Creating an Array by Adding Two Arrays Together",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Creating an Array with an Array Literal",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Accessing and Modifying an Array",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Iterating Over an Array",
+                                    "level": 6
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Sets",
+                            "items": [
+                                {
+                                    "name": "Hash Values for Set Types",
+                                    "level": 4
+                                },
+                                {
+                                    "name": "Set Type Syntax",
+                                    "level": 5
+                                },
+                                {
+                                    "name": "Creating and Initializing an Empty Set",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Creating a Set with an Array Literal",
+                                    "level": 4
+                                },
+                                {
+                                    "name": "Accessing and Modifying a Set",
+                                    "level": 4
+                                },
+                                {
+                                    "name": "Iterating Over a Set",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Performing Set Operations",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Set Membership and Equality",
+                                    "level": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Dictionaries",
+                            "items": [
+                                {
+                                    "name": "Dictionary Type Shorthand Syntax",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Creating an Empty Dictionary",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Creating a Dictionary with a Dictionary Literal",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Accessing and Modifying a Dictionary",
+                                    "level": 4
+                                },
+                                {
+                                    "name": "Iterating Over a Dictionary",
+                                    "level": 4
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "name": "Control Flow",
