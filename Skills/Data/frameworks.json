@@ -206,7 +206,153 @@
                                         },
                                         {
                                             "name": "Data Formatting",
-                                            "level": 2
+                                            "items": [
+                                                {
+                                                    "name": "Numbers and Currency",
+                                                    "items": [
+                                                        {
+                                                            "name": "Configuring Formatter Behavior and Style",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Converting Between Numbers and Strings",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Managing Localization of Numbers"
+                                                        },
+                                                        {
+                                                            "name": "Configuring Rounding Behavior"
+                                                        },
+                                                        {
+                                                            "name": "Configuring Integer and Fraction Digits",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Configuring Significant Digits",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Configuring Numeric Formats",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Configuring Numeric Symbols"
+                                                        },
+                                                        {
+                                                            "name": "Configuring the Format of Currency"
+                                                        },
+                                                        {
+                                                            "name": "Configuring Numeric Prefixes and Suffixes"
+                                                        },
+                                                        {
+                                                            "name": "Configuring the Display of Numeric Values"
+                                                        },
+                                                        {
+                                                            "name": "Configuring Separators and Grouping Size"
+                                                        },
+                                                        {
+                                                            "name": "Managing the Padding of Numbers"
+                                                        },
+                                                        {
+                                                            "name": "Managing Input and Output Attributes",
+                                                            "optional": true
+                                                        },
+                                                        {
+                                                            "name": "Managing Leniency Behavior",
+                                                            "optional": true
+                                                        },
+                                                        {
+                                                            "name": "Managing the Validation of Partial Numeric Strings",
+                                                            "optional": true
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Names",
+                                                    "items": [
+                                                        {
+                                                            "name": "class PersonNameComponentsFormatter",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "struct PersonNameComponents",
+                                                            "level": 2
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Dates and Times",
+                                                    "items": [
+                                                        {
+                                                            "name": "class DateFormatter",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class DateComponentsFormatter",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class DateIntervalFormatter",
+                                                            "optional": true
+                                                        },
+                                                        {
+                                                            "name": "class ISO8601DateFormatter",
+                                                            "optional": true
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Data Sizes"
+                                                },
+                                                {
+                                                    "name": "Measurements",
+                                                    "optional": true
+                                                },
+                                                {
+                                                    "name": "Internationalization",
+                                                    "items": [
+                                                        {
+                                                            "name": "Creating a Locale"
+                                                        },
+                                                        {
+                                                            "name": "Getting the User's Locale"
+                                                        },
+                                                        {
+                                                            "name": "Getting Known Identifiers and Codes"
+                                                        },
+                                                        {
+                                                            "name": "Converting Between Identifiers"
+                                                        },
+                                                        {
+                                                            "name": "Getting Information About a Locale"
+                                                        },
+                                                        {
+                                                            "name": "Getting Display Information About a Locale"
+                                                        },
+                                                        {
+                                                            "name": "Getting the User's Preferred Languages"
+                                                        },
+                                                        {
+                                                            "name": "Getting Line and Character Direction for a Language"
+                                                        },
+                                                        {
+                                                            "name": "Comparing Locales"
+                                                        },
+                                                        {
+                                                            "name": "Describing a Locale",
+                                                            "optional": true
+                                                        },
+                                                        {
+                                                            "name": "Using Reference Types",
+                                                            "optional": true
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Custom Formatters"
+                                                }
+                                            ]
                                         },
                                         {
                                             "name": "Filters and Sorting",
