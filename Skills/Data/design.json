@@ -22,6 +22,63 @@
             "name": "Design Languages",
             "items": [
                 {
+                    "name": "Human Interface Guidelines",
+                    "items": [
+                        {
+                            "name": "iOS",
+                            "items": [
+                                {
+                                    "name": "iOS Design Themes"
+                                },
+                                {
+                                    "name": "Interface Essentials"
+                                },
+                                {
+                                    "name": "App Architecture"
+                                },
+                                {
+                                    "name": "User Interaction"
+                                },
+                                {
+                                    "name": "System Capabilities"
+                                },
+                                {
+                                    "name": "Visual Design"
+                                },
+                                {
+                                    "name": "Icons and Images"
+                                },
+                                {
+                                    "name": "Bars"
+                                },
+                                {
+                                    "name": "Views"
+                                },
+                                {
+                                    "name": "Controls"
+                                },
+                                {
+                                    "name": "Extensions"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "macOS",
+                            "level": 1
+                        },
+                        {
+                            "name": "tvOS"
+                        },
+                        {
+                            "name": "watchOS"
+                        },
+                        {
+                            "name": "Technologies",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
                     "name": "Flat Design",
                     "level": 2
                 },
