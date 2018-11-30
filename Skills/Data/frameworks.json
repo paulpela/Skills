@@ -1313,6 +1313,10 @@
             "name": "Cocoapods",
             "items": [
                 {
+                    "name": "cocoapods Command Line",
+                    "level": 2
+                },
+                {
                     "name": "Databases",
                     "items": [
                         {
