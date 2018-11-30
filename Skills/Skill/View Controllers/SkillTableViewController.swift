@@ -62,7 +62,9 @@ class SkillTableViewController: UITableViewController {
             let newVC = UIStoryboard.init(name: "Skill", bundle: nil).instantiateInitialViewController() as! SkillTableViewController
             
             newVC.title = skills?[indexPath.row].name
-            newVC.skills = skills?[indexPath.row].items
+            newVC.skills = skills?[indexPath.row].items?.sorted(by: {
+                ($0.level?.rawValue ?? 0) > ($1.level?.rawValue ?? 0)
+            })
             
             self.navigationController?.pushViewController(newVC, animated: true)
         }
