@@ -934,7 +934,40 @@
                                                         },
                                                         {
                                                             "name": "class NSLayoutConstraint",
-                                                            "level": 2
+                                                            "items": [
+                                                                {
+                                                                    "name": "Creating Constraints",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Activating and Deactivating Constraints",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Accessing Constraint Data",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Getting the Layout Priority",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Identifying a Constraint",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Controlling Constraint Archiving",
+                                                                    "optional": true
+                                                                },
+                                                                {
+                                                                    "name": "Constants",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "enum NSLayoutConstraint.Axis",
+                                                                    "level": 2
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "protocol UILayoutSupport"
