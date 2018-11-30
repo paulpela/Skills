@@ -941,7 +941,140 @@
                                 },
                                 {
                                     "name": "Text",
-                                    "level": 1
+                                    "items": [
+                                        {
+                                            "name": "Text Display and Fonts",
+                                            "items": [
+                                                {
+                                                    "name": "Layout"
+                                                },
+                                                {
+                                                    "name": "Text Views",
+                                                    "items": [
+                                                        {
+                                                            "name": "class UILabel",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Accessing the Text Attributes",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Sizing the Label’s Text",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Managing Highlight Values"
+                                                                },
+                                                                {
+                                                                    "name": "Drawing a Shadow",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Drawing and Positioning Overrides"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "class UITextField",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Validating and Handling Edits",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Accessing the Text Attributes",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Sizing the Text Field’s Text",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Editing Behavior"
+                                                                },
+                                                                {
+                                                                    "name": "Setting the View’s Background Appearance"
+                                                                },
+                                                                {
+                                                                    "name": "Managing Overlay Views"
+                                                                },
+                                                                {
+                                                                    "name": "Drawing and Positioning Overrides"
+                                                                },
+                                                                {
+                                                                    "name": "Replacing the System Input Views"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "class UITextView",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Initializing the Text View",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Responding to Text View Changes"
+                                                                },
+                                                                {
+                                                                    "name": "Configuring the Text Attributes",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Working with the Selection"
+                                                                },
+                                                                {
+                                                                    "name": "Replacing the System Input Views"
+                                                                },
+                                                                {
+                                                                    "name": "Accessing Text Kit Objects"
+                                                                },
+                                                                {
+                                                                    "name": "Notifications"
+                                                                },
+                                                                {
+                                                                    "name": "struct UIDataDetectorTypes"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Drag and Drop Customization",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Text View Additions"
+                                                                },
+                                                                {
+                                                                    "name": "Drag Content"
+                                                                },
+                                                                {
+                                                                    "name": "Drop Management"
+                                                                },
+                                                                {
+                                                                    "name": "Pasteboard Support"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Fonts",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Spell Checking",
+                                                    "optional": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Text Storage",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Keyboards and Input",
+                                            "level": 1
+                                        }
+                                    ]
                                 },
                                 {
                                     "name": "Property List Keys"
