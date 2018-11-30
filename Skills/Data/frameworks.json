@@ -481,11 +481,11 @@
                                                         },
                                                         {
                                                             "name": "Configuring Content Margins",
-                                                            "level": 0
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Getting the Safe Area",
-                                                            "level": 0
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Managing the View’s Constraints",
@@ -497,7 +497,7 @@
                                                         },
                                                         {
                                                             "name": "Working with Layout Guides",
-                                                            "level": 0
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Measuring in Auto Layout",
@@ -576,8 +576,7 @@
                                                                     "level": 2
                                                                 },
                                                                 {
-                                                                    "name": "Animating Views",
-                                                                    "level": 0
+                                                                    "name": "Animating Views"
                                                                 }
                                                             ]
                                                         }
