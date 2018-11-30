@@ -39,6 +39,8 @@ extension Skill {
         }
         
         var colors: (fg: UIColor, bg: UIColor) {
+            if self.rawValue == 0 { return  (fg: .white, bg: .darkGray)}
+            
             let hueMax: CGFloat = 220.0
             let degreesPerLevel = hueMax / CGFloat(Level.allCases.count) * (1.0 / 360.0)
             
