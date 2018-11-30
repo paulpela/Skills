@@ -27,7 +27,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jxz-gm-pMp">
-                                            <rect key="frame" x="16" y="10" width="325" height="24"/>
+                                            <rect key="frame" x="16" y="10" width="329" height="24"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X6V-K9-1Li">
                                                     <rect key="frame" x="0.0" y="0.0" width="90" height="24"/>
@@ -48,13 +48,13 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fd-vs-nP3">
-                                                    <rect key="frame" x="98" y="0.0" width="169" height="24"/>
+                                                    <rect key="frame" x="98" y="0.0" width="173" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWM-LS-UiQ">
-                                                    <rect key="frame" x="275" y="0.0" width="50" height="24"/>
+                                                    <rect key="frame" x="279" y="0.0" width="50" height="24"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="optional" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uON-iS-PPf">
                                                             <rect key="frame" x="7" y="6" width="36" height="12"/>
@@ -75,11 +75,13 @@
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="jxz-gm-pMp" secondAttribute="trailing" id="NKa-am-Laq"/>
                                         <constraint firstItem="jxz-gm-pMp" firstAttribute="leading" secondItem="XRo-72-9nI" secondAttribute="leading" constant="16" id="nDe-Mh-Ibb"/>
                                         <constraint firstItem="jxz-gm-pMp" firstAttribute="centerY" secondItem="XRo-72-9nI" secondAttribute="centerY" id="xys-me-LUb"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jxz-gm-pMp" secondAttribute="trailing" constant="30" id="o7g-Ak-law"/>
+                                </constraints>
                                 <connections>
                                     <outlet property="optionalIndicator" destination="RWM-LS-UiQ" id="53N-Br-i01"/>
                                     <outlet property="skillLevelBackground" destination="X6V-K9-1Li" id="Ip0-4z-szc"/>
