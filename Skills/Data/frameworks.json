@@ -837,7 +837,16 @@
                                             "items": [
                                                 {
                                                     "name": "Content Animations",
-                                                    "level": 1
+                                                    "items": [
+                                                        {
+                                                            "name": "Property-Based Animations",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "View Controller Transitions",
+                                                            "level": 1
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Physics-Based Animations"
