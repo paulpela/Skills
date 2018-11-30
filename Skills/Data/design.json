@@ -2,16 +2,42 @@
     "name": "Design",
     "items": [
         {
-            "name": "Interface Builder",
-            "level": 3
+            "name": "Applications",
+            "items": [
+                {
+                    "name": "Interface Builder",
+                    "level": 3
+                },
+                {
+                    "name": "Sketch",
+                    "level": 1
+                },
+                {
+                    "name": "Photoshop",
+                    "level": 3
+                }
+            ]
         },
         {
-            "name": "Sketch",
-            "level": 1
-        },
-        {
-            "name": "Material Design",
-            "level": 1
+            "name": "Design Languages",
+            "items": [
+                {
+                    "name": "Flat Design",
+                    "level": 2
+                },
+                {
+                    "name": "Material Design",
+                    "level": 1
+                },
+                {
+                    "name": "Metro Design",
+                    "optional": true
+                },
+                {
+                    "name": "Fluent Design",
+                    "optional": true
+                }
+            ]
         }
     ]
 }
