@@ -731,7 +731,40 @@
                                                 },
                                                 {
                                                     "name": "Controls",
-                                                    "level": 2
+                                                    "items": [
+                                                        {
+                                                            "name": "class UIControl",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UIButton",
+                                                            "level": 3
+                                                        },
+                                                        {
+                                                            "name": "class UIDatePicker",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class UIPageControl",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UISegmentedControl",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UISlider",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UIStepper",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class UISwitch",
+                                                            "level": 2
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Text Views",
