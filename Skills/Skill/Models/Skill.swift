@@ -54,7 +54,7 @@ class Skill: Codable {
                     )
                     return Level(rawValue: avgLevel)
                 } else {
-                    return Level.noSkill
+                    return nil
                 }
             } else {
                 return _level
