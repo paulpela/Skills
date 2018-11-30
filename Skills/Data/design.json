@@ -36,6 +36,10 @@
                 {
                     "name": "Fluent Design",
                     "optional": true
+                },
+                {
+                    "name": "Skeuomorphic Design",
+                    "optional": true
                 }
             ]
         }
