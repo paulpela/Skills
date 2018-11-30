@@ -768,15 +768,85 @@
                                                 },
                                                 {
                                                     "name": "Text Views",
-                                                    "level": 2
+                                                    "items": [
+                                                        {
+                                                            "name": "class UILabel",
+                                                            "level": 3
+                                                        },
+                                                        {
+                                                            "name": "class UITextField",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UITextView",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Drag and Drop Customization"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Visual Effects",
-                                                    "level": 1
+                                                    "items": [
+                                                        {
+                                                            "name": "class UIVisualEffect",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class UIVisualEffectView",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class UIVibrancyEffect",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class UIBlurEffect",
+                                                            "level": 1
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Bars",
-                                                    "level": 2
+                                                    "items": [
+                                                        {
+                                                            "name": "class UIBarItem",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class UIBarButtonItem",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UIBarButtonItemGroup"
+                                                        },
+                                                        {
+                                                            "name": "class UINavigationBar",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UISearchBar"
+                                                        },
+                                                        {
+                                                            "name": "class UIToolbar",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class UITabBar",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class UITabBarItem",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "protocol UIBarPositioning"
+                                                        },
+                                                        {
+                                                            "name": "protocol UIBarPositioningDelegate"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Appearance Customization"
