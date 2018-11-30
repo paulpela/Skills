@@ -1077,7 +1077,8 @@
                                     ]
                                 },
                                 {
-                                    "name": "Property List Keys"
+                                    "name": "Property List Keys",
+                                    "optional": true
                                 }
                             ]
                         },

@@ -261,7 +261,93 @@
                 },
                 {
                     "name": "Control Flow",
-                    "level": 4
+                    "items": [
+                        {
+                            "name": "For-In Loops",
+                            "level": 6
+                        },
+                        {
+                            "name": "While Loops",
+                            "level": 6
+                        },
+                        {
+                            "name": "Repeat-While",
+                            "level": 5
+                        },
+                        {
+                            "name": "Conditional Statements",
+                            "items": [
+                                {
+                                    "name": "If",
+                                    "level": 6
+                                },
+                                {
+                                    "name": "Switch",
+                                    "items": [
+                                        {
+                                            "name": "Basic Syntax",
+                                            "level": 6
+                                        },
+                                        {
+                                            "name": "No Implicit Fallthrough",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Interval Matching",
+                                            "level": 3
+                                        },
+                                        {
+                                            "name": "Tuples",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Value Bindings",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Where",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Compound Cases",
+                                            "level": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Control Transfer Statements",
+                                    "items": [
+                                        {
+                                            "name": "Continue",
+                                            "level": 6
+                                        },
+                                        {
+                                            "name": "Break",
+                                            "level": 6
+                                        },
+                                        {
+                                            "name": "Fallthrough",
+                                            "optional": true,
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Labeled Statements",
+                                            "optional": true,
+                                            "level": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Early Exit - guard",
+                            "level": 5
+                        },
+                        {
+                            "name": "Checking API Availability",
+                            "optional": true
+                        }
+                    ]
                 },
                 {
                     "name": "Functions",
