@@ -43,6 +43,7 @@
 		E5E7F70421B070920077CD15 /* design.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = design.json; sourceTree = "<group>"; };
 		E5E7F70821B077F90077CD15 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		E5E7F70B21B078F80077CD15 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E5E7F70E21B0C5930077CD15 /* KokcharovSkillHierarchy2015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KokcharovSkillHierarchy2015.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		E5E7F6AF21AF62790077CD15 = {
 			isa = PBXGroup;
 			children = (
+				E5E7F70D21B0C5360077CD15 /* Resources */,
 				E5E7F6F821B0513D0077CD15 /* README.md */,
 				E5E7F6BA21AF62790077CD15 /* Skills */,
 				E5E7F6B921AF62790077CD15 /* Products */,
@@ -150,6 +152,14 @@
 				E5E7F70B21B078F80077CD15 /* ProfileViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		E5E7F70D21B0C5360077CD15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7F70E21B0C5930077CD15 /* KokcharovSkillHierarchy2015.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

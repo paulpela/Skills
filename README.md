@@ -1,6 +1,13 @@
 #  Skills
 
-A simple iOS app for tracking skills required in iOS / Swift dev
+A simple iOS app for tracking skills required in iOS / Swift dev.
+
+Skill levels are based on:
+- Dwarf Fortress skills - seriously ;)
+- Wikipedia article on Skills
+- this image of a hierarchy of skills, similar to Maslow's hierarchy of needs:
+
+![Hierarchy of Skills by Kokcharov CC BY-SA 4.0](Resources/KokcharovSkillHierarchy2015.jpg)
 
 ## Classes used:
 
@@ -13,7 +20,7 @@ A simple iOS app for tracking skills required in iOS / Swift dev
 
 - instantiate view controllers on demand from storyboard
 - pushing view controllers to UINavigationController
-- RECURSION
+- recursion
 
 ## Lessons learned:
 
