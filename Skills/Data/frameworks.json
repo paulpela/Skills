@@ -820,15 +820,52 @@
                                             "items": [
                                                 {
                                                     "name": "Constraints",
-                                                    "level": 3
+                                                    "items": [
+                                                        {
+                                                            "name": "Positioning Content Within Layout Margins",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "Positioning Content Relative to the Safe Area",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class NSLayoutConstraint",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "protocol UILayoutSupport"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Layout Guides",
-                                                    "level": 1
+                                                    "items": [
+                                                        {
+                                                            "name": "class UILayoutGuide",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class NSLayoutDimension"
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Anchors",
-                                                    "level": 2
+                                                    "items": [
+                                                        {
+                                                            "name": "class NSLayoutAnchor",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class NSLayoutXAxisAnchor",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "class NSLayoutYAxisAnchor",
+                                                            "level": 1
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         },
@@ -840,11 +877,39 @@
                                                     "items": [
                                                         {
                                                             "name": "Property-Based Animations",
-                                                            "level": 2
+                                                            "items": [
+                                                                {
+                                                                    "name": "class UIViewPropertyAnimator"
+                                                                },
+                                                                {
+                                                                    "name": "protocol UIViewAnimating"
+                                                                },
+                                                                {
+                                                                    "name": "Timing Curves"
+                                                                },
+                                                                {
+                                                                    "name": "In-Progress Animations"
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "View Controller Transitions",
-                                                            "level": 1
+                                                            "items": [
+                                                                {
+                                                                    "name": "Animation Delegate",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Non-Interactive Transitions",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Interactive Transitions"
+                                                                },
+                                                                {
+                                                                    "name": "Transition Coordinators"
+                                                                }
+                                                            ]
                                                         }
                                                     ]
                                                 },
