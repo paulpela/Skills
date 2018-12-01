@@ -765,11 +765,12 @@
                                                     "name": "Content Views",
                                                     "items": [
                                                         {
-                                                            "name": "UIActivityIndicatorView"
+                                                            "name": "UIActivityIndicatorView",
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "UIImageView",
-                                                            "level": 2
+                                                            "level": 3
                                                         },
                                                         {
                                                             "name": "UIPickerView",
@@ -777,7 +778,7 @@
                                                         },
                                                         {
                                                             "name": "UIProgressView",
-                                                            "level": 1
+                                                            "level": 2
                                                         }
                                                     ]
                                                 },
@@ -786,7 +787,27 @@
                                                     "items": [
                                                         {
                                                             "name": "class UIControl",
-                                                            "level": 2
+                                                            "items": [
+                                                                {
+                                                                    "name": "Configuring the Control’s Attributes",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Accessing the Control’s Targets and Actions",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Triggering Actions",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Tracking Touches and Redrawing Controls"
+                                                                },
+                                                                {
+                                                                    "name": "Constants",
+                                                                    "level": 1
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "class UIButton",
