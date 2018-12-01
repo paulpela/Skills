@@ -390,7 +390,59 @@
                                             "items": [
                                                 {
                                                     "name": "Application",
-                                                    "level": 3
+                                                    "items": [
+                                                        {
+                                                            "name": "Managing Your App's Life Cycle",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Life Cycle Events",
+                                                                    "items": [
+                                                                        {
+                                                                            "name": "Responding to the Launch of Your App",
+                                                                            "level": 2
+                                                                        },
+                                                                        {
+                                                                            "name": "Preparing Your App to Run in the Foreground",
+                                                                            "level": 2
+                                                                        },
+                                                                        {
+                                                                            "name": "Preparing Your App to Run in the Background",
+                                                                            "level": 2
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "Behavioral Events",
+                                                                    "items": [
+                                                                        {
+                                                                            "name": "Responding to Memory Warnings",
+                                                                            "level": 1
+                                                                        },
+                                                                        {
+                                                                            "name": "Preserving Your App's UI Across Launches",
+                                                                            "optional": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "class UIApplication",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "protocol UIApplicationDelegate",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Allowing Apps and Websites to Link to Your Content",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "func UIApplicationMain",
+                                                            "level": 1
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Device Environment",
