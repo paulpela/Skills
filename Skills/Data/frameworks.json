@@ -428,11 +428,84 @@
                                                         },
                                                         {
                                                             "name": "class UIApplication",
-                                                            "level": 1
+                                                            "items": [
+                                                                {
+                                                                    "name": "Getting the App Instance",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Managing the App's Behavior",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Registering for Remote Notifications",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Getting the Application State"
+                                                                },
+                                                                {
+                                                                    "name": "Managing Background Execution"
+                                                                },
+                                                                {
+                                                                    "name": "Fetching Content in the Background"
+                                                                },
+                                                                {
+                                                                    "name": "Opening a URL Resource",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Managing the App Idle Timer"
+                                                                },
+                                                                {
+                                                                    "name": "Managing the State Restoration Behavior"
+                                                                },
+                                                                {
+                                                                    "name": "Managing Home Screen Quick Actions for 3D Touch"
+                                                                },
+                                                                {
+                                                                    "name": "Determining the Availability of Protected Content"
+                                                                },
+                                                                {
+                                                                    "name": "Registering for Remote Control Events"
+                                                                },
+                                                                {
+                                                                    "name": "Controlling App Appearance",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Controlling and Handling Events"
+                                                                },
+                                                                {
+                                                                    "name": "Managing the App's Icon",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Getting App Windows",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Getting the Font Sizing Preference",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Default Interface Orientations",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Managing Status Bar Animations"
+                                                                },
+                                                                {
+                                                                    "name": "Constants"
+                                                                },
+                                                                {
+                                                                    "name": "Notifications"
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "protocol UIApplicationDelegate",
-                                                            "level": 1
+                                                            "level": 3
                                                         },
                                                         {
                                                             "name": "Allowing Apps and Websites to Link to Your Content",
@@ -440,7 +513,7 @@
                                                         },
                                                         {
                                                             "name": "func UIApplicationMain",
-                                                            "level": 1
+                                                            "level": 2
                                                         }
                                                     ]
                                                 },
