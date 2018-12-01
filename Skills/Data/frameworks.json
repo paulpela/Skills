@@ -1141,12 +1141,11 @@
                                                     "level": 1
                                                 },
                                                 {
-                                                    "name": "Popovers",
-                                                    "level": 0
+                                                    "name": "Popovers"
                                                 },
                                                 {
                                                     "name": "Alerts",
-                                                    "level": 1
+                                                    "level": 2
                                                 },
                                                 {
                                                     "name": "Screens"
@@ -1160,7 +1159,7 @@
                                     "items": [
                                         {
                                             "name": "Touches, Presses, and Gestures",
-                                            "level": 1
+                                            "level": 2
                                         },
                                         {
                                             "name": "Drag and Drop"
