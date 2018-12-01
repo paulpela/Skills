@@ -505,7 +505,54 @@
                                                         },
                                                         {
                                                             "name": "protocol UIApplicationDelegate",
-                                                            "level": 3
+                                                            "items": [
+                                                                {
+                                                                    "name": "Initializing the App",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Responding to App State Changes and System Events",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Managing App State Restoration"
+                                                                },
+                                                                {
+                                                                    "name": "Downloading Data in the Background"
+                                                                },
+                                                                {
+                                                                    "name": "Handling Remote Notification Registration"
+                                                                },
+                                                                {
+                                                                    "name": "Continuing User Activity and Handling Quick Actions"
+                                                                },
+                                                                {
+                                                                    "name": "Interacting With WatchKit"
+                                                                },
+                                                                {
+                                                                    "name": "Interacting With HealthKit"
+                                                                },
+                                                                {
+                                                                    "name": "Opening a URL-Specified Resource",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Disallowing Specified App Extension Types"
+                                                                },
+                                                                {
+                                                                    "name": "Handling SiriKit Intents"
+                                                                },
+                                                                {
+                                                                    "name": "Handling CloudKit Invitations"
+                                                                },
+                                                                {
+                                                                    "name": "Managing Interface Geometry"
+                                                                },
+                                                                {
+                                                                    "name": "Providing a Window for Storyboarding",
+                                                                    "level": 2
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "Allowing Apps and Websites to Link to Your Content",
