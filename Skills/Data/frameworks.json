@@ -1208,7 +1208,21 @@
                                                             "name": "Property-Based Animations",
                                                             "items": [
                                                                 {
-                                                                    "name": "class UIViewPropertyAnimator"
+                                                                    "name": "class UIViewPropertyAnimator",
+                                                                    "items": [
+                                                                        {
+                                                                            "name": "Initializing a Property Animator",
+                                                                            "level": 1
+                                                                        },
+                                                                        {
+                                                                            "name": "Modifying Animations",
+                                                                            "level": 1
+                                                                        },
+                                                                        {
+                                                                            "name": "Accessing the Animation Parameters",
+                                                                            "level": 1
+                                                                        }
+                                                                    ]
                                                                 },
                                                                 {
                                                                     "name": "protocol UIViewAnimating"
