@@ -60,25 +60,30 @@
                                                             "level": 3
                                                         },
                                                         {
-                                                            "name": "Accessing Bytes"
+                                                            "name": "Accessing Bytes",
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Accessing Underlying Memory"
                                                         },
                                                         {
-                                                            "name": "Adding Bytes"
+                                                            "name": "Adding Bytes",
+                                                            "level": 1
                                                         },
                                                         {
-                                                            "name": "Removing Bytes"
+                                                            "name": "Removing Bytes",
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Replacing a Range of Bytes"
                                                         },
                                                         {
-                                                            "name": "Finding Bytes"
+                                                            "name": "Finding Bytes",
+                                                            "level": 1
                                                         },
                                                         {
-                                                            "name": "Selecting Bytes"
+                                                            "name": "Selecting Bytes",
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Excluding Bytes"
@@ -87,10 +92,12 @@
                                                             "name": "Transforming Data"
                                                         },
                                                         {
-                                                            "name": "Iterating Over Bytes"
+                                                            "name": "Iterating Over Bytes",
+                                                            "level": 1
                                                         },
                                                         {
-                                                            "name": "Sorting Bytes"
+                                                            "name": "Sorting Bytes",
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Splitting the Buffer"
@@ -112,10 +119,12 @@
                                                             "name": "Using Reference Types"
                                                         },
                                                         {
-                                                            "name": "Initializers"
+                                                            "name": "Initializers",
+                                                            "level": 1
                                                         },
                                                         {
-                                                            "name": "Instance Properties"
+                                                            "name": "Instance Properties",
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Instance Methods"
@@ -124,7 +133,8 @@
                                                             "name": "Subscripts"
                                                         },
                                                         {
-                                                            "name": "Operator Functions"
+                                                            "name": "Operator Functions",
+                                                            "level": 1
                                                         }
                                                     ]
                                                 },
@@ -137,7 +147,30 @@
                                                         },
                                                         {
                                                             "name": "struct URLComponents",
-                                                            "level": 1
+                                                            "items": [
+                                                                {
+                                                                    "name": "Creating URL Components",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Getting the URL",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Accessing Components in Native Format",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Accessing Components in URL-Encoded Format"
+                                                                },
+                                                                {
+                                                                    "name": "Locating Components in the URL String Representation"
+                                                                },
+                                                                {
+                                                                    "name": "Comparing URL Components",
+                                                                    "level": 1
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "struct URLQueryItem",
