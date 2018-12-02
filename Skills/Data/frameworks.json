@@ -161,15 +161,82 @@
                                         },
                                         {
                                             "name": "Strings and Text",
-                                            "level": 2
+                                            "items": [
+                                                {
+                                                    "name": "Strings",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Strings with Metadata",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Characters"
+                                                },
+                                                {
+                                                    "name": "Natural Language Processing",
+                                                    "optional": true
+                                                },
+                                                {
+                                                    "name": "Pattern Matching"
+                                                },
+                                                {
+                                                    "name": "Spelling and Grammar"
+                                                },
+                                                {
+                                                    "name": "Localization"
+                                                }
+                                            ]
                                         },
                                         {
                                             "name": "Collections",
-                                            "level": 2
+                                            "items": [
+                                                {
+                                                    "name": "Basic Collections",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Indexes",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Specialized Sets"
+                                                },
+                                                {
+                                                    "name": "Purgeable Collections"
+                                                },
+                                                {
+                                                    "name": "Pointer Collections"
+                                                },
+                                                {
+                                                    "name": "Iteration",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Special Semantic Values",
+                                                    "level": 2
+                                                }
+                                            ]
                                         },
                                         {
                                             "name": "Dates and Times",
-                                            "level": 2
+                                            "items": [
+                                                {
+                                                    "name": "Date Representations",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Calendrical Calculations",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Date Formatting",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Internationalization"
+                                                }
+                                            ]
                                         },
                                         {
                                             "name": "Units and Measurement",
@@ -286,7 +353,7 @@
                                                     "items": [
                                                         {
                                                             "name": "class DateFormatter",
-                                                            "level": 1
+                                                            "level": 2
                                                         },
                                                         {
                                                             "name": "class DateComponentsFormatter",
@@ -356,26 +423,197 @@
                                         },
                                         {
                                             "name": "Filters and Sorting",
-                                            "level": 1
+                                            "items": [
+                                                {
+                                                    "name": "Filtering"
+                                                },
+                                                {
+                                                    "name": "Sorting"
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
                                 {
                                     "name": "App Support",
-                                    "level": 1
+                                    "items": [
+                                        {
+                                            "name": "Task Management",
+                                            "items": [
+                                                {
+                                                    "name": "Undo"
+                                                },
+                                                {
+                                                    "name": "Progress"
+                                                },
+                                                {
+                                                    "name": "Operations",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Scheduling",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Activity Sharing"
+                                                },
+                                                {
+                                                    "name": "System Interaction"
+                                                },
+                                                {
+                                                    "name": "User Notifications"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Resources",
+                                            "items": [
+                                                {
+                                                    "name": "Bundle Resources",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "On-Demand Resources"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Notifications",
+                                            "items": [
+                                                {
+                                                    "name": "Key-Value Observing",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Notifications",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Cross-Process Notifications"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "App Extension Support",
+                                            "optional": true,
+                                            "items": [
+                                                {
+                                                    "name": "Extension Support"
+                                                },
+                                                {
+                                                    "name": "Attachments"
+                                                },
+                                                {
+                                                    "name": "Host App Interaction"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Errors and Exceptions",
+                                            "items": [
+                                                {
+                                                    "name": "User-Relevant Errors",
+                                                    "level": 1
+                                                },
+                                                {
+                                                    "name": "Assertions"
+                                                },
+                                                {
+                                                    "name": "Exceptions"
+                                                },
+                                                {
+                                                    "name": "Diagnostics and Debugging",
+                                                    "level": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Scripting Support",
+                                            "optional": true,
+                                            "items": [
+                                                {
+                                                    "name": "Script Execution"
+                                                },
+                                                {
+                                                    "name": "Apple Event Handling"
+                                                },
+                                                {
+                                                    "name": "Script Commands"
+                                                },
+                                                {
+                                                    "name": "Object Specifiers"
+                                                },
+                                                {
+                                                    "name": "Script Dictionary Description"
+                                                },
+                                                {
+                                                    "name": "Object Matching Tests"
+                                                },
+                                                {
+                                                    "name": "NSObject Script Support"
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 {
                                     "name": "Files and Data Persistence",
-                                    "level": 1
+                                    "items": [
+                                        {
+                                            "name": "File System",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Archives and Serialization",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Preferences",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Spotlight"
+                                        },
+                                        {
+                                            "name": "iCloud"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "Networking"
+                                    "name": "Networking",
+                                    "items": [
+                                        {
+                                            "name": "URL Loading System",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Bonjour",
+                                            "optional": true
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "Low-Level Utilities"
+                                    "name": "Low-Level Utilities",
+                                    "optional": true,
+                                    "items": [
+                                        {
+                                            "name": "XPC"
+                                        },
+                                        {
+                                            "name": "Object Runtime"
+                                        },
+                                        {
+                                            "name": "Processes and Threads",
+                                            "level": 1
+                                        },
+                                        {
+                                            "name": "Streams, Sockets, and Ports"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "Property List Keys"
+                                    "name": "Property List Keys",
+                                    "optional": true
                                 }
                             ]
                         },
