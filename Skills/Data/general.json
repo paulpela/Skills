@@ -198,7 +198,124 @@
                     "items": [
                         {
                             "name": "Git",
-                            "level": 5
+                            "items": [
+                                {
+                                    "name": "Getting Started",
+                                    "items": [
+                                        {
+                                            "name": "Git Basics",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Installing Git",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "First-Time Git Setup",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Getting Help",
+                                            "level": 5
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Git Basics",
+                                    "items": [
+                                        {
+                                            "name": "Getting a Git Repository",
+                                            "items": [
+                                                {
+                                                    "name": "Initializing a Repository in an Existing Directory",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Cloning an Existing Repository",
+                                                    "level": 5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Recording Changes to the Repository",
+                                            "items": [
+                                                {
+                                                    "name": "Checking the Status of Your Files",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Tracking New Files",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Staging Modified Files",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Short Status",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Ignoring Files",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Viewing Your Staged and Unstaged Changes",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Committing Your Changes",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Skipping the Staging Area",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Removing Files",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Moving Files",
+                                                    "level": 5
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Git Branching",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Git on the Server",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Distributed Git",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "GitHub",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Git Tools",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Customizing Git",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Git and Other Systems",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Git Internals",
+                                    "level": 3
+                                }
+                            ]
                         }
                     ]
                 }
