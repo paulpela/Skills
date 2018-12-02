@@ -280,6 +280,84 @@
                                                     "level": 5
                                                 }
                                             ]
+                                        },
+                                        {
+                                            "name": "Viewing the Commit History",
+                                            "level": 3
+                                        },
+                                        {
+                                            "name": "Undoing Things",
+                                            "level": 2
+                                        },
+                                        {
+                                            "name": "Working with Remotes",
+                                            "items": [
+                                                {
+                                                    "name": "Showing Your Remotes",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Adding Remote Repositories",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Fetching and Pulling from Your Remotes",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Pushing to Your Remotes",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Inspecting a Remote",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Renaming and Removing Remotes",
+                                                    "level": 5
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Tagging",
+                                            "items": [
+                                                {
+                                                    "name": "Listing Your Tags",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Creating Tags",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Annotated Tags",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Lightweight Tags",
+                                                    "level": 2
+                                                },
+                                                {
+                                                    "name": "Tagging Later",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Sharing Tags",
+                                                    "level": 3
+                                                },
+                                                {
+                                                    "name": "Deleting Tags",
+                                                    "level": 5
+                                                },
+                                                {
+                                                    "name": "Checking out Tags",
+                                                    "level": 2
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Git Aliases",
+                                            "level": 4
                                         }
                                     ]
                                 },
