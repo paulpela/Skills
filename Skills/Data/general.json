@@ -363,7 +363,44 @@
                                 },
                                 {
                                     "name": "Git Branching",
-                                    "level": 3
+                                    "items": [
+                                        {
+                                            "name": "Creating a New Branch",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Switching Branches",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Basic Branching",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Basic Merging",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Basic Merge Conflicts",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Branch Management",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Branching Workflows",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Remote Branches",
+                                            "level": 5
+                                        },
+                                        {
+                                            "name": "Rebasing",
+                                            "level": 2
+                                        }
+                                    ]
                                 },
                                 {
                                     "name": "Git on the Server",
