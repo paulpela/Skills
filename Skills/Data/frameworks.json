@@ -233,7 +233,16 @@
                                                 },
                                                 {
                                                     "name": "Unique Identifiers",
-                                                    "level": 1
+                                                    "items": [
+                                                        {
+                                                            "name": "Creating UUIDs",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "Getting UUID Values",
+                                                            "level": 2
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "name": "Geometry",
