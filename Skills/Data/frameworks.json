@@ -143,7 +143,60 @@
                                                     "items": [
                                                         {
                                                             "name": "struct URL",
-                                                            "level": 3
+                                                            "items": [
+                                                                {
+                                                                    "name": "Creating a URL from a String",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Creating a File URL",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Creating a URL by Resolving a Bookmark"
+                                                                },
+                                                                {
+                                                                    "name": "Working with the Data Representation of a URL"
+                                                                },
+                                                                {
+                                                                    "name": "Accessing the Parts of a URL",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Accessing Resource Values"
+                                                                },
+                                                                {
+                                                                    "name": "Working with File URLs",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Adding Path Components",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Adding a Path Extension",
+                                                                    "level": 3
+                                                                },
+                                                                {
+                                                                    "name": "Removing Path Components"
+                                                                },
+                                                                {
+                                                                    "name": "Removing a Path Extension"
+                                                                },
+                                                                {
+                                                                    "name": "Creating Bookmarks"
+                                                                },
+                                                                {
+                                                                    "name": "Checking Reachability"
+                                                                },
+                                                                {
+                                                                    "name": "Working with Promised Items"
+                                                                },
+                                                                {
+                                                                    "name": "Working with Security Scoped Resources",
+                                                                    "optional": true
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "struct URLComponents",
