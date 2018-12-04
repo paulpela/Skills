@@ -679,7 +679,119 @@
                                     "items": [
                                         {
                                             "name": "URL Loading System",
-                                            "level": 1
+                                            "items": [
+                                                {
+                                                    "name": "First Steps",
+                                                    "items": [
+                                                        {
+                                                            "name": "Fetching Website Data into Memory",
+                                                            "level": 1
+                                                        },
+                                                        {
+                                                            "name": "Uploading Data to a Website"
+                                                        },
+                                                        {
+                                                            "name": "Downloading Files in the Background"
+                                                        },
+                                                        {
+                                                            "name": "class URLSession",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class URLSessionConfiguration",
+                                                            "level": 2
+                                                        },
+                                                        {
+                                                            "name": "class URLSessionTask",
+                                                            "level": 2
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Requests and Responses",
+                                                    "items": [
+                                                        {
+                                                            "name": "struct URLRequest"
+                                                        },
+                                                        {
+                                                            "name": "class URLResponse"
+                                                        },
+                                                        {
+                                                            "name": "class HTTPURLResponse",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Initializing a Response Object",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Getting HTTP Response Headers",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Getting Response Status Code",
+                                                                    "level": 2
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Cache Behavior",
+                                                    "items": [
+                                                        {
+                                                            "name": "Accessing Cached Data"
+                                                        },
+                                                        {
+                                                            "name": "class CachedURLResponse"
+                                                        },
+                                                        {
+                                                            "name": "class URLCache"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Authentication and Credentials",
+                                                    "items": [
+                                                        {
+                                                            "name": "Handling an Authentication Challenge"
+                                                        },
+                                                        {
+                                                            "name": "class URLAuthenticationChallenge"
+                                                        },
+                                                        {
+                                                            "name": "class URLCredential"
+                                                        },
+                                                        {
+                                                            "name": "class URLCredentialStorage"
+                                                        },
+                                                        {
+                                                            "name": "class URLProtectionSpace"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Cookies",
+                                                    "items": [
+                                                        {
+                                                            "name": "class HTTPCookie"
+                                                        },
+                                                        {
+                                                            "name": "class HTTPCookieStorage"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Errors",
+                                                    "items": [
+                                                        {
+                                                            "name": "struct URLError"
+                                                        },
+                                                        {
+                                                            "name": "URL Loading System Error Info Keys"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             "name": "Bonjour",
