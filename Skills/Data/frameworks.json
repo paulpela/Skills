@@ -795,10 +795,43 @@
                                                     "name": "Requests and Responses",
                                                     "items": [
                                                         {
-                                                            "name": "struct URLRequest"
+                                                            "name": "struct URLRequest",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Creating a Request",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Working with a Cache Policy"
+                                                                },
+                                                                {
+                                                                    "name": "Accessing Request Components",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Accessing Header Fields",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Controlling Request Behavior"
+                                                                },
+                                                                {
+                                                                    "name": "Accessing the Service Type"
+                                                                }
+                                                            ]
                                                         },
                                                         {
-                                                            "name": "class URLResponse"
+                                                            "name": "class URLResponse",
+                                                            "items": [
+                                                                {
+                                                                    "name": "Creating a Response",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Getting the Response Properties",
+                                                                    "level": 2
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "class HTTPURLResponse",
