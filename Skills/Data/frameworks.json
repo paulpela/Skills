@@ -688,22 +688,106 @@
                                                             "level": 1
                                                         },
                                                         {
-                                                            "name": "Uploading Data to a Website"
+                                                            "name": "Uploading Data to a Website",
+                                                            "level": 1
                                                         },
                                                         {
                                                             "name": "Downloading Files in the Background"
                                                         },
                                                         {
                                                             "name": "class URLSession",
-                                                            "level": 2
+                                                            "items": [
+                                                                {
+                                                                    "name": "Creating a Session",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Configuring a Session",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Adding Data Tasks to a Session",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Adding Download Tasks to a Session",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Adding Upload Tasks to a Session",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Adding Stream Tasks to a Session"
+                                                                },
+                                                                {
+                                                                    "name": "Managing the Session"
+                                                                },
+                                                                {
+                                                                    "name": "Handling Errors"
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "class URLSessionConfiguration",
-                                                            "level": 2
+                                                            "items": [
+                                                                {
+                                                                    "name": "Creating a Session Configuration Object",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Setting General Properties",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Setting Cookie Policies"
+                                                                },
+                                                                {
+                                                                    "name": "Setting Security Policies"
+                                                                },
+                                                                {
+                                                                    "name": "Setting Caching Policies"
+                                                                },
+                                                                {
+                                                                    "name": "Supporting Background Transfers"
+                                                                },
+                                                                {
+                                                                    "name": "Supporting Custom Protocols"
+                                                                },
+                                                                {
+                                                                    "name": "Supporting Multipath TCP"
+                                                                },
+                                                                {
+                                                                    "name": "Setting HTTP Policy and Proxy Properties"
+                                                                },
+                                                                {
+                                                                    "name": "Supporting Connectivity Changes",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Entitlements"
+                                                                }
+                                                            ]
                                                         },
                                                         {
                                                             "name": "class URLSessionTask",
-                                                            "level": 2
+                                                            "items": [
+                                                                {
+                                                                    "name": "Controlling the Task State",
+                                                                    "level": 2
+                                                                },
+                                                                {
+                                                                    "name": "Obtaining Task Progress",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Obtaining General Task Information",
+                                                                    "level": 1
+                                                                },
+                                                                {
+                                                                    "name": "Scheduling Tasks"
+                                                                }
+                                                            ]
                                                         }
                                                     ]
                                                 },
