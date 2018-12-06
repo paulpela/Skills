@@ -47,11 +47,7 @@ class Skill: Codable {
                     
                     
                     let avgLevel = Int(max(averageWithOptionals, averageWithoutOptionals).rounded())
-                    print(
-                        (averageWithOptionals == averageWithoutOptionals ? "=" : " ")
-                        +
-                        " > with: \(averageWithOptionals), without: \(averageWithoutOptionals), returning level: \(avgLevel)"
-                    )
+            
                     return Level(rawValue: avgLevel)
                 } else {
                     return nil
