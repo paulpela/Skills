@@ -518,7 +518,108 @@
                 },
                 {
                     "name": "Access Control",
-                    "level": 3
+                    "items": [
+                        {
+                            "name": "Modules and Source Files",
+                            "level": 3
+                        },
+                        {
+                            "name": "Access Levels",
+                            "items": [
+                                {
+                                    "name": "Guiding Principle of Access Levels",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Default Access Levels",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Access Levels for Single-Target Apps",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Access Levels for Frameworks",
+                                    "level": 2
+                                },
+                                {
+                                    "name": "Access Levels for Unit Test Targets",
+                                    "level": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Access Control Syntax",
+                            "level": 3
+                        },
+                        {
+                            "name": "Custom Types",
+                            "items": [
+                                {
+                                    "name": "Tuple Types",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Function Types",
+                                    "level": 2
+                                },
+                                {
+                                    "name": "Enumeration Types",
+                                    "level": 3
+                                },
+                                {
+                                    "name": "Nested Types",
+                                    "level": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Subclassing",
+                            "level": 2
+                        },
+                        {
+                            "name": "Constants, Variables, Properties, and Subscripts",
+                            "level": 2
+                        },
+                        {
+                            "name": "Initializers",
+                            "items": [
+                                {
+                                    "name": "Default Initializers",
+                                    "level": 2
+                                },
+                                {
+                                    "name": "Default Memberwise Initializers for Structure Types",
+                                    "level": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Protocols",
+                            "items": [
+                                {
+                                    "name": "Protocol Inheritance",
+                                    "level": 1
+                                },
+                                {
+                                    "name": "Protocol Conformance",
+                                    "level": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Extensions",
+                            "level": 1
+                        },
+                        {
+                            "name": "Generics",
+                            "level": 1
+                        },
+                        {
+                            "name": "Type Aliases",
+                            "level": 2
+                        }
+                    ]
                 },
                 {
                     "name": "Advanced Operators",
