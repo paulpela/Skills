@@ -586,6 +586,15 @@
             "level": 3
         },
         {
+            "name": "Project Management",
+            "items": [
+                {
+                    "name": "Agile Software Development",
+                    "level": 2
+                }
+            ]
+        },
+        {
             "name": "Development Principles",
             "items": [
                 {
