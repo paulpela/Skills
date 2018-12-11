@@ -685,7 +685,7 @@
                                                     "items": [
                                                         {
                                                             "name": "Fetching Website Data into Memory",
-                                                            "level": 1
+                                                            "level": 3
                                                         },
                                                         {
                                                             "name": "Uploading Data to a Website",
@@ -699,19 +699,19 @@
                                                             "items": [
                                                                 {
                                                                     "name": "Creating a Session",
-                                                                    "level": 2
+                                                                    "level": 3
                                                                 },
                                                                 {
                                                                     "name": "Configuring a Session",
-                                                                    "level": 2
+                                                                    "level": 3
                                                                 },
                                                                 {
                                                                     "name": "Adding Data Tasks to a Session",
-                                                                    "level": 2
+                                                                    "level": 3
                                                                 },
                                                                 {
                                                                     "name": "Adding Download Tasks to a Session",
-                                                                    "level": 2
+                                                                    "level": 3
                                                                 },
                                                                 {
                                                                     "name": "Adding Upload Tasks to a Session",
@@ -733,39 +733,48 @@
                                                             "items": [
                                                                 {
                                                                     "name": "Creating a Session Configuration Object",
-                                                                    "level": 2
+                                                                    "level": 3
                                                                 },
                                                                 {
                                                                     "name": "Setting General Properties",
-                                                                    "level": 2
+                                                                    "level": 3
                                                                 },
                                                                 {
-                                                                    "name": "Setting Cookie Policies"
+                                                                    "name": "Setting Cookie Policies",
+                                                                    "optional": true
                                                                 },
                                                                 {
-                                                                    "name": "Setting Security Policies"
+                                                                    "name": "Setting Security Policies",
+                                                                    "optional": true
                                                                 },
                                                                 {
-                                                                    "name": "Setting Caching Policies"
+                                                                    "name": "Setting Caching Policies",
+                                                                    "optional": true
                                                                 },
                                                                 {
-                                                                    "name": "Supporting Background Transfers"
+                                                                    "name": "Supporting Background Transfers",
+                                                                    "optional": true
                                                                 },
                                                                 {
-                                                                    "name": "Supporting Custom Protocols"
+                                                                    "name": "Supporting Custom Protocols",
+                                                                    "optional": true
                                                                 },
                                                                 {
-                                                                    "name": "Supporting Multipath TCP"
+                                                                    "name": "Supporting Multipath TCP",
+                                                                    "optional": true
                                                                 },
                                                                 {
-                                                                    "name": "Setting HTTP Policy and Proxy Properties"
+                                                                    "name": "Setting HTTP Policy and Proxy Properties",
+                                                                    "optional": true
                                                                 },
                                                                 {
                                                                     "name": "Supporting Connectivity Changes",
+                                                                    "optional": true,
                                                                     "level": 1
                                                                 },
                                                                 {
-                                                                    "name": "Entitlements"
+                                                                    "name": "Entitlements",
+                                                                    "optional": true
                                                                 }
                                                             ]
                                                         },
@@ -785,7 +794,8 @@
                                                                     "level": 1
                                                                 },
                                                                 {
-                                                                    "name": "Scheduling Tasks"
+                                                                    "name": "Scheduling Tasks",
+                                                                    "optional": true
                                                                 }
                                                             ]
                                                         }
@@ -802,18 +812,20 @@
                                                                     "level": 1
                                                                 },
                                                                 {
-                                                                    "name": "Working with a Cache Policy"
+                                                                    "name": "Working with a Cache Policy",
+                                                                    "level": 1
                                                                 },
                                                                 {
                                                                     "name": "Accessing Request Components",
-                                                                    "level": 1
+                                                                    "level": 2
                                                                 },
                                                                 {
                                                                     "name": "Accessing Header Fields",
                                                                     "level": 1
                                                                 },
                                                                 {
-                                                                    "name": "Controlling Request Behavior"
+                                                                    "name": "Controlling Request Behavior",
+                                                                    "level": 1
                                                                 },
                                                                 {
                                                                     "name": "Accessing the Service Type"
@@ -846,7 +858,7 @@
                                                                 },
                                                                 {
                                                                     "name": "Getting Response Status Code",
-                                                                    "level": 2
+                                                                    "level": 3
                                                                 }
                                                             ]
                                                         }
@@ -854,6 +866,7 @@
                                                 },
                                                 {
                                                     "name": "Cache Behavior",
+                                                    "optional": true,
                                                     "items": [
                                                         {
                                                             "name": "Accessing Cached Data"
